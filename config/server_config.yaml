@@ -1,0 +1,4 @@
+# Central Server’ın (buffer + dashboard) TCP Server ayarları
+
+server_host:   "127.0.0.1"    # Central Server’ın IP’si
+server_port:   10000         # Central Server’ın dinleyeceği port

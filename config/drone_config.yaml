@@ -1,0 +1,18 @@
+# Drone’un TCP Server (sensörlerden gelen) ve TCP Client (merkezi sunucuya giden) ayarları
+
+# 1) Sensörlerden dinleyeceği host ve port
+drone_host:    "127.0.0.1"   # Localhost: geliştirme sırasında sensör/test sürecinde
+drone_port:    9000          # Sensörlerden gelen veriyi dinleyecek port
+
+# 2) İşlenmiş veriyi göndereceği Central Server’ın host/port’u
+server_host:   "127.0.0.1"   # Central Server’ın IP’si (genellikle localhost)
+server_port:   10000         # Central Server’ın dinlediği port
+
+# 3) EdgeProcessor parametreleri
+window_size:         5       # Rolling‐average hesaplamada kullanılacak pencere boyutu
+sigma_threshold:     2       # Anomali eşiği (std_dev × sigma_threshold)
+
+# 4) BatteryMonitor parametreleri
+start_level:         100     # Başlangıç pil seviyesi (%)
+drain_rate:          1       # Her check_interval’de düşecek puan (%)
+check_interval:      1.0     # Pil seviyesi kontrol aralığı (saniye)

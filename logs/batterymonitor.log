@@ -1,0 +1,8 @@
+[2025-05-03 20:25:02] [BatteryMonitor] [INFO] BatteryMonitor started: level=100%, drain_rate=1% per 3.0 seconds
+[2025-05-03 20:25:05] [BatteryMonitor] [DEBUG] Battery level: 99%
+[2025-05-03 20:25:08] [BatteryMonitor] [DEBUG] Battery level: 98%
+[2025-05-03 20:25:11] [BatteryMonitor] [DEBUG] Battery level: 97%
+[2025-05-03 20:25:14] [BatteryMonitor] [DEBUG] Battery level: 96%
+[2025-05-03 20:25:17] [BatteryMonitor] [DEBUG] Battery level: 95%
+[2025-05-03 20:25:20] [BatteryMonitor] [DEBUG] Battery level: 94%
+[2025-05-03 20:25:23] [BatteryMonitor] [DEBUG] Battery level: 93%

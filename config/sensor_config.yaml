@@ -1,0 +1,7 @@
+# Sensor Node’un, Drone’a veri göndermek için kullandığı parametreler
+
+drone_host:     "127.0.0.1"   # Drone TCP Server’ın IP’si
+drone_port:     9000          # Drone TCP Server’ın dinlediği port
+sensor_id:      "S1"          # Sensörün benzersiz kimliği
+send_interval:  2             # İki saniyede bir veri gönderme aralığı
+retries:        3             # Gönderimde başarısızsa en fazla 3 deneme
