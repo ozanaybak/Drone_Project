@@ -1,0 +1,6 @@
+# config/sensor_S3.yaml
+drone_host: "127.0.0.1"
+drone_port: 9000
+sensor_id: "S3"
+send_interval: 2
+retries: 3

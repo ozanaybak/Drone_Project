@@ -346,3 +346,1285 @@
 [2025-05-03 21:22:27] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
 [2025-05-03 21:22:27] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
 [2025-05-03 21:22:27] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:09] [DroneTCPServer] [WARNING] Tkinter not available; GUI disabled
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Loaded config from config/drone_config.yaml
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Drone host: 127.0.0.1
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Drone port: 9000
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Server host: 127.0.0.1
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Server port: 10000
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] EdgeProcessor initialized.
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] BatteryMonitor started.
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Sunucu dinlemede: 127.0.0.1:9000
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64504), spawning handler thread
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64504)
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64503), spawning handler thread
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297487.5395641, "temperature": 27.84, "humidity": 50.67}'
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64503)
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297487.5395641, 'temperature': 27.84, 'humidity': 50.67}
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297487.541882, "temperature": 17.9, "humidity": 33.46}'
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297487.5395641, 'temperature': 27.84, 'humidity': 50.67, 'average': 27.84, 'std_dev': 0.0, 'anomaly_flag': False, 'processed_timestamp': 1746297489.55504}
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297487.541882, 'temperature': 17.9, 'humidity': 33.46}
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:09] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297487.541882, 'temperature': 17.9, 'humidity': 33.46, 'average': 22.87, 'std_dev': 4.97, 'anomaly_flag': False, 'processed_timestamp': 1746297489.555491}
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:09] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:09] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:09] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64509), spawning handler thread
+[2025-05-03 21:38:11] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64509)
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64508), spawning handler thread
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297491.5647318, "temperature": 28.96, "humidity": 34.77}'
+[2025-05-03 21:38:11] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64508)
+[2025-05-03 21:38:11] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297491.5647318, 'temperature': 28.96, 'humidity': 34.77}
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297491.564493, "temperature": 27.29, "humidity": 32.35}'
+[2025-05-03 21:38:11] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297491.5647318, 'temperature': 28.96, 'humidity': 34.77, 'average': 24.9, 'std_dev': 4.97, 'anomaly_flag': False, 'processed_timestamp': 1746297491.569085}
+[2025-05-03 21:38:11] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297491.564493, 'temperature': 27.29, 'humidity': 32.35}
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:11] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297491.564493, 'temperature': 27.29, 'humidity': 32.35, 'average': 25.5, 'std_dev': 4.43, 'anomaly_flag': False, 'processed_timestamp': 1746297491.56955}
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:11] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:11] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:11] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64512), spawning handler thread
+[2025-05-03 21:38:13] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64512)
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297493.572041, "temperature": 21.41, "humidity": 37.76}'
+[2025-05-03 21:38:13] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297493.572041, 'temperature': 21.41, 'humidity': 37.76}
+[2025-05-03 21:38:13] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297493.572041, 'temperature': 21.41, 'humidity': 37.76, 'average': 24.68, 'std_dev': 4.28, 'anomaly_flag': False, 'processed_timestamp': 1746297493.573865}
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:13] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64514), spawning handler thread
+[2025-05-03 21:38:13] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64514)
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297493.5740101, "temperature": 19.14, "humidity": 54.67}'
+[2025-05-03 21:38:13] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297493.5740101, 'temperature': 19.14, 'humidity': 54.67}
+[2025-05-03 21:38:13] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297493.5740101, 'temperature': 19.14, 'humidity': 54.67, 'average': 22.94, 'std_dev': 4.41, 'anomaly_flag': False, 'processed_timestamp': 1746297493.575113}
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:13] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:13] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64516), spawning handler thread
+[2025-05-03 21:38:15] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64516)
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297495.5796459, "temperature": 24.39, "humidity": 52.99}'
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64517), spawning handler thread
+[2025-05-03 21:38:15] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297495.5796459, 'temperature': 24.39, 'humidity': 52.99}
+[2025-05-03 21:38:15] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64517)
+[2025-05-03 21:38:15] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297495.5796459, 'temperature': 24.39, 'humidity': 52.99, 'average': 24.24, 'std_dev': 3.62, 'anomaly_flag': False, 'processed_timestamp': 1746297495.582725}
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297495.580711, "temperature": 20.98, "humidity": 36.96}'
+[2025-05-03 21:38:15] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297495.580711, 'temperature': 20.98, 'humidity': 36.96}
+[2025-05-03 21:38:15] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297495.580711, 'temperature': 20.98, 'humidity': 36.96, 'average': 22.64, 'std_dev': 2.87, 'anomaly_flag': False, 'processed_timestamp': 1746297495.5836039}
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:15] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:15] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:15] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64520), spawning handler thread
+[2025-05-03 21:38:17] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64520)
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64521), spawning handler thread
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297497.584948, "temperature": 29.64, "humidity": 36.58}'
+[2025-05-03 21:38:17] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64521)
+[2025-05-03 21:38:17] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297497.584948, 'temperature': 29.64, 'humidity': 36.58}
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297497.5851352, "temperature": 22.01, "humidity": 51.5}'
+[2025-05-03 21:38:17] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297497.584948, 'temperature': 29.64, 'humidity': 36.58, 'average': 23.11, 'std_dev': 3.67, 'anomaly_flag': False, 'processed_timestamp': 1746297497.587379}
+[2025-05-03 21:38:17] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297497.5851352, 'temperature': 22.01, 'humidity': 51.5}
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:17] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297497.5851352, 'temperature': 22.01, 'humidity': 51.5, 'average': 23.23, 'std_dev': 3.63, 'anomaly_flag': False, 'processed_timestamp': 1746297497.5877812}
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:17] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:17] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:17] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:18] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64524), spawning handler thread
+[2025-05-03 21:38:18] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64524)
+[2025-05-03 21:38:18] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297498.0897012, "temperature": 19.46, "humidity": 31.15}'
+[2025-05-03 21:38:18] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297498.0897012, 'temperature': 19.46, 'humidity': 31.15}
+[2025-05-03 21:38:18] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297498.0897012, 'temperature': 19.46, 'humidity': 31.15, 'average': 23.3, 'std_dev': 3.55, 'anomaly_flag': False, 'processed_timestamp': 1746297498.091535}
+[2025-05-03 21:38:18] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:18] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:18] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64526), spawning handler thread
+[2025-05-03 21:38:19] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64526)
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64527), spawning handler thread
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297499.593674, "temperature": 19.56, "humidity": 44.84}'
+[2025-05-03 21:38:19] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64527)
+[2025-05-03 21:38:19] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297499.593674, 'temperature': 19.56, 'humidity': 44.84}
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297499.593548, "temperature": 17.59, "humidity": 62.81}'
+[2025-05-03 21:38:19] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297499.593674, 'temperature': 19.56, 'humidity': 44.84, 'average': 22.33, 'std_dev': 3.78, 'anomaly_flag': False, 'processed_timestamp': 1746297499.59645}
+[2025-05-03 21:38:19] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297499.593548, 'temperature': 17.59, 'humidity': 62.81}
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:19] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297499.593548, 'temperature': 17.59, 'humidity': 62.81, 'average': 21.65, 'std_dev': 4.23, 'anomaly_flag': False, 'processed_timestamp': 1746297499.596929}
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:19] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:19] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:19] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:20] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64531), spawning handler thread
+[2025-05-03 21:38:20] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64531)
+[2025-05-03 21:38:20] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297500.09691, "temperature": 28.95, "humidity": 65.82}'
+[2025-05-03 21:38:20] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297500.09691, 'temperature': 28.95, 'humidity': 65.82}
+[2025-05-03 21:38:20] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297500.09691, 'temperature': 28.95, 'humidity': 65.82, 'average': 21.51, 'std_dev': 3.97, 'anomaly_flag': False, 'processed_timestamp': 1746297500.099103}
+[2025-05-03 21:38:20] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:20] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:20] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64533), spawning handler thread
+[2025-05-03 21:38:21] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64533)
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297501.600385, "temperature": 26.08, "humidity": 51.73}'
+[2025-05-03 21:38:21] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297501.600385, 'temperature': 26.08, 'humidity': 51.73}
+[2025-05-03 21:38:21] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297501.600385, 'temperature': 26.08, 'humidity': 51.73, 'average': 22.33, 'std_dev': 4.39, 'anomaly_flag': False, 'processed_timestamp': 1746297501.6027992}
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64534), spawning handler thread
+[2025-05-03 21:38:21] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64534)
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297501.6019242, "temperature": 15.82, "humidity": 36.99}'
+[2025-05-03 21:38:21] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:21] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297501.6019242, 'temperature': 15.82, 'humidity': 36.99}
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:21] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297501.6019242, 'temperature': 15.82, 'humidity': 36.99, 'average': 21.6, 'std_dev': 5.05, 'anomaly_flag': False, 'processed_timestamp': 1746297501.604138}
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:21] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:21] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:22] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64537), spawning handler thread
+[2025-05-03 21:38:22] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64537)
+[2025-05-03 21:38:22] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297502.105094, "temperature": 20.98, "humidity": 43.84}'
+[2025-05-03 21:38:22] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297502.105094, 'temperature': 20.98, 'humidity': 43.84}
+[2025-05-03 21:38:22] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297502.105094, 'temperature': 20.98, 'humidity': 43.84, 'average': 21.88, 'std_dev': 4.97, 'anomaly_flag': False, 'processed_timestamp': 1746297502.108086}
+[2025-05-03 21:38:22] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:22] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:22] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64539), spawning handler thread
+[2025-05-03 21:38:23] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64539)
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297503.606587, "temperature": 19.99, "humidity": 48.03}'
+[2025-05-03 21:38:23] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297503.606587, 'temperature': 19.99, 'humidity': 48.03}
+[2025-05-03 21:38:23] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297503.606587, 'temperature': 19.99, 'humidity': 48.03, 'average': 22.36, 'std_dev': 4.64, 'anomaly_flag': False, 'processed_timestamp': 1746297503.609786}
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64540), spawning handler thread
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:23] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64540)
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297503.608715, "temperature": 28.36, "humidity": 34.59}'
+[2025-05-03 21:38:23] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297503.608715, 'temperature': 28.36, 'humidity': 34.59}
+[2025-05-03 21:38:23] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297503.608715, 'temperature': 28.36, 'humidity': 34.59, 'average': 22.25, 'std_dev': 4.47, 'anomaly_flag': False, 'processed_timestamp': 1746297503.610882}
+[2025-05-03 21:38:23] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:23] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:23] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:24] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64543), spawning handler thread
+[2025-05-03 21:38:24] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64543)
+[2025-05-03 21:38:24] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297504.114055, "temperature": 15.9, "humidity": 60.94}'
+[2025-05-03 21:38:24] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297504.114055, 'temperature': 15.9, 'humidity': 60.94}
+[2025-05-03 21:38:24] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297504.114055, 'temperature': 15.9, 'humidity': 60.94, 'average': 20.21, 'std_dev': 4.58, 'anomaly_flag': False, 'processed_timestamp': 1746297504.116931}
+[2025-05-03 21:38:24] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:24] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:24] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64545), spawning handler thread
+[2025-05-03 21:38:25] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64545)
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297505.612448, "temperature": 23.87, "humidity": 65.6}'
+[2025-05-03 21:38:25] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297505.612448, 'temperature': 23.87, 'humidity': 65.6}
+[2025-05-03 21:38:25] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297505.612448, 'temperature': 23.87, 'humidity': 65.6, 'average': 21.82, 'std_dev': 4.15, 'anomaly_flag': False, 'processed_timestamp': 1746297505.614791}
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:25] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64547), spawning handler thread
+[2025-05-03 21:38:25] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64547)
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297505.616624, "temperature": 21.51, "humidity": 63.82}'
+[2025-05-03 21:38:25] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297505.616624, 'temperature': 21.51, 'humidity': 63.82}
+[2025-05-03 21:38:25] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297505.616624, 'temperature': 21.51, 'humidity': 63.82, 'average': 21.93, 'std_dev': 4.13, 'anomaly_flag': False, 'processed_timestamp': 1746297505.619255}
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:25] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:25] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:26] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64549), spawning handler thread
+[2025-05-03 21:38:26] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64549)
+[2025-05-03 21:38:26] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297506.11811, "temperature": 22.79, "humidity": 52.2}'
+[2025-05-03 21:38:26] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297506.11811, 'temperature': 22.79, 'humidity': 52.2}
+[2025-05-03 21:38:26] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297506.11811, 'temperature': 22.79, 'humidity': 52.2, 'average': 22.49, 'std_dev': 4.02, 'anomaly_flag': False, 'processed_timestamp': 1746297506.1203358}
+[2025-05-03 21:38:26] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:26] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:26] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64551), spawning handler thread
+[2025-05-03 21:38:27] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64551)
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297507.620686, "temperature": 16.12, "humidity": 68.92}'
+[2025-05-03 21:38:27] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297507.620686, 'temperature': 16.12, 'humidity': 68.92}
+[2025-05-03 21:38:27] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297507.620686, 'temperature': 16.12, 'humidity': 68.92, 'average': 20.04, 'std_dev': 3.37, 'anomaly_flag': False, 'processed_timestamp': 1746297507.622185}
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64552), spawning handler thread
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:27] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64552)
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297507.621703, "temperature": 21.16, "humidity": 64.73}'
+[2025-05-03 21:38:27] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297507.621703, 'temperature': 21.16, 'humidity': 64.73}
+[2025-05-03 21:38:27] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297507.621703, 'temperature': 21.16, 'humidity': 64.73, 'average': 21.09, 'std_dev': 2.66, 'anomaly_flag': False, 'processed_timestamp': 1746297507.622943}
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:27] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:27] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:27] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:28] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64555), spawning handler thread
+[2025-05-03 21:38:28] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64555)
+[2025-05-03 21:38:28] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297508.12554, "temperature": 26.54, "humidity": 46.4}'
+[2025-05-03 21:38:28] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297508.12554, 'temperature': 26.54, 'humidity': 46.4}
+[2025-05-03 21:38:28] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297508.12554, 'temperature': 26.54, 'humidity': 46.4, 'average': 21.62, 'std_dev': 3.35, 'anomaly_flag': False, 'processed_timestamp': 1746297508.126997}
+[2025-05-03 21:38:28] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:28] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:28] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64557), spawning handler thread
+[2025-05-03 21:38:29] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64557)
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297509.628654, "temperature": 17.86, "humidity": 44.8}'
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64558), spawning handler thread
+[2025-05-03 21:38:29] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297509.628654, 'temperature': 17.86, 'humidity': 44.8}
+[2025-05-03 21:38:29] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64558)
+[2025-05-03 21:38:29] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297509.628654, 'temperature': 17.86, 'humidity': 44.8, 'average': 20.89, 'std_dev': 3.68, 'anomaly_flag': False, 'processed_timestamp': 1746297509.630403}
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297509.628528, "temperature": 27.7, "humidity": 52.82}'
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:29] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297509.628528, 'temperature': 27.7, 'humidity': 52.82}
+[2025-05-03 21:38:29] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297509.628528, 'temperature': 27.7, 'humidity': 52.82, 'average': 21.88, 'std_dev': 4.59, 'anomaly_flag': False, 'processed_timestamp': 1746297509.630922}
+[2025-05-03 21:38:29] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:29] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:29] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:30] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64561), spawning handler thread
+[2025-05-03 21:38:30] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64561)
+[2025-05-03 21:38:30] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297510.132616, "temperature": 23.69, "humidity": 59.56}'
+[2025-05-03 21:38:30] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297510.132616, 'temperature': 23.69, 'humidity': 59.56}
+[2025-05-03 21:38:30] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297510.132616, 'temperature': 23.69, 'humidity': 59.56, 'average': 23.39, 'std_dev': 3.58, 'anomaly_flag': False, 'processed_timestamp': 1746297510.135732}
+[2025-05-03 21:38:30] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:30] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:30] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64563), spawning handler thread
+[2025-05-03 21:38:31] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64563)
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64564), spawning handler thread
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297511.636554, "temperature": 27.27, "humidity": 40.78}'
+[2025-05-03 21:38:31] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64564)
+[2025-05-03 21:38:31] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297511.636554, 'temperature': 27.27, 'humidity': 40.78}
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297511.6368809, "temperature": 21.19, "humidity": 69.65}'
+[2025-05-03 21:38:31] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297511.636554, 'temperature': 27.27, 'humidity': 40.78, 'average': 24.61, 'std_dev': 3.65, 'anomaly_flag': False, 'processed_timestamp': 1746297511.64055}
+[2025-05-03 21:38:31] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297511.6368809, 'temperature': 21.19, 'humidity': 69.65}
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:31] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297511.6368809, 'temperature': 21.19, 'humidity': 69.65, 'average': 23.54, 'std_dev': 3.72, 'anomaly_flag': False, 'processed_timestamp': 1746297511.641044}
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:31] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:31] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:31] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:32] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64567), spawning handler thread
+[2025-05-03 21:38:32] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64567)
+[2025-05-03 21:38:32] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297512.141716, "temperature": 29.87, "humidity": 53.85}'
+[2025-05-03 21:38:32] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297512.141716, 'temperature': 29.87, 'humidity': 53.85}
+[2025-05-03 21:38:32] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297512.141716, 'temperature': 29.87, 'humidity': 53.85, 'average': 25.94, 'std_dev': 3.1, 'anomaly_flag': False, 'processed_timestamp': 1746297512.144932}
+[2025-05-03 21:38:32] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:32] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:32] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64569), spawning handler thread
+[2025-05-03 21:38:33] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64569)
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297513.645509, "temperature": 29.89, "humidity": 36.94}'
+[2025-05-03 21:38:33] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297513.645509, 'temperature': 29.89, 'humidity': 36.94}
+[2025-05-03 21:38:33] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297513.645509, 'temperature': 29.89, 'humidity': 36.94, 'average': 26.38, 'std_dev': 3.45, 'anomaly_flag': False, 'processed_timestamp': 1746297513.6485481}
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64570), spawning handler thread
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:33] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64570)
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297513.647564, "temperature": 16.77, "humidity": 57.8}'
+[2025-05-03 21:38:33] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297513.647564, 'temperature': 16.77, 'humidity': 57.8}
+[2025-05-03 21:38:33] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297513.647564, 'temperature': 16.77, 'humidity': 57.8, 'average': 25.0, 'std_dev': 5.2, 'anomaly_flag': False, 'processed_timestamp': 1746297513.649916}
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:33] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:33] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:33] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:34] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64573), spawning handler thread
+[2025-05-03 21:38:34] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64573)
+[2025-05-03 21:38:34] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297514.151057, "temperature": 19.11, "humidity": 34.37}'
+[2025-05-03 21:38:34] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297514.151057, 'temperature': 19.11, 'humidity': 34.37}
+[2025-05-03 21:38:34] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297514.151057, 'temperature': 19.11, 'humidity': 34.37, 'average': 23.37, 'std_dev': 5.5, 'anomaly_flag': False, 'processed_timestamp': 1746297514.153926}
+[2025-05-03 21:38:34] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:34] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:34] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64576), spawning handler thread
+[2025-05-03 21:38:35] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64576)
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64575), spawning handler thread
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297515.6556501, "temperature": 16.62, "humidity": 50.59}'
+[2025-05-03 21:38:35] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64575)
+[2025-05-03 21:38:35] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297515.6556501, 'temperature': 16.62, 'humidity': 50.59}
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297515.6552691, "temperature": 15.72, "humidity": 44.65}'
+[2025-05-03 21:38:35] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297515.6556501, 'temperature': 16.62, 'humidity': 50.59, 'average': 22.45, 'std_dev': 6.13, 'anomaly_flag': False, 'processed_timestamp': 1746297515.658467}
+[2025-05-03 21:38:35] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297515.6552691, 'temperature': 15.72, 'humidity': 44.65}
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:35] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297515.6552691, 'temperature': 15.72, 'humidity': 44.65, 'average': 19.62, 'std_dev': 5.25, 'anomaly_flag': False, 'processed_timestamp': 1746297515.658941}
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:35] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:35] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:35] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:36] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64579), spawning handler thread
+[2025-05-03 21:38:36] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64579)
+[2025-05-03 21:38:36] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297516.158783, "temperature": 27.5, "humidity": 45.33}'
+[2025-05-03 21:38:36] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297516.158783, 'temperature': 27.5, 'humidity': 45.33}
+[2025-05-03 21:38:36] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297516.158783, 'temperature': 27.5, 'humidity': 45.33, 'average': 19.14, 'std_dev': 4.33, 'anomaly_flag': False, 'processed_timestamp': 1746297516.1607838}
+[2025-05-03 21:38:36] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:36] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:36] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64581), spawning handler thread
+[2025-05-03 21:38:37] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64581)
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297517.6613162, "temperature": 15.33, "humidity": 64.95}'
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64582), spawning handler thread
+[2025-05-03 21:38:37] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297517.6613162, 'temperature': 15.33, 'humidity': 64.95}
+[2025-05-03 21:38:37] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64582)
+[2025-05-03 21:38:37] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297517.6613162, 'temperature': 15.33, 'humidity': 64.95, 'average': 18.86, 'std_dev': 4.52, 'anomaly_flag': False, 'processed_timestamp': 1746297517.663887}
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297517.661472, "temperature": 16.13, "humidity": 35.58}'
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:37] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297517.661472, 'temperature': 16.13, 'humidity': 35.58}
+[2025-05-03 21:38:37] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297517.661472, 'temperature': 16.13, 'humidity': 35.58, 'average': 18.26, 'std_dev': 4.64, 'anomaly_flag': False, 'processed_timestamp': 1746297517.664593}
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:37] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:37] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:37] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:38] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64585), spawning handler thread
+[2025-05-03 21:38:38] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64585)
+[2025-05-03 21:38:38] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297518.166668, "temperature": 18.26, "humidity": 39.71}'
+[2025-05-03 21:38:38] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297518.166668, 'temperature': 18.26, 'humidity': 39.71}
+[2025-05-03 21:38:38] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297518.166668, 'temperature': 18.26, 'humidity': 39.71, 'average': 18.59, 'std_dev': 4.57, 'anomaly_flag': False, 'processed_timestamp': 1746297518.1694531}
+[2025-05-03 21:38:38] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:38] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:38] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64587), spawning handler thread
+[2025-05-03 21:38:39] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64587)
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297519.670363, "temperature": 29.64, "humidity": 66.57}'
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64588), spawning handler thread
+[2025-05-03 21:38:39] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297519.670363, 'temperature': 29.64, 'humidity': 66.57}
+[2025-05-03 21:38:39] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64588)
+[2025-05-03 21:38:39] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297519.670363, 'temperature': 29.64, 'humidity': 66.57, 'average': 21.37, 'std_dev': 5.99, 'anomaly_flag': False, 'processed_timestamp': 1746297519.6716878}
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297519.67046, "temperature": 18.51, "humidity": 69.64}'
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:39] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297519.67046, 'temperature': 18.51, 'humidity': 69.64}
+[2025-05-03 21:38:39] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297519.67046, 'temperature': 18.51, 'humidity': 69.64, 'average': 19.57, 'std_dev': 5.18, 'anomaly_flag': False, 'processed_timestamp': 1746297519.6720262}
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:39] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:39] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:39] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:40] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64591), spawning handler thread
+[2025-05-03 21:38:40] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64591)
+[2025-05-03 21:38:40] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297520.17534, "temperature": 15.36, "humidity": 56.3}'
+[2025-05-03 21:38:40] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297520.17534, 'temperature': 15.36, 'humidity': 56.3}
+[2025-05-03 21:38:40] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297520.17534, 'temperature': 15.36, 'humidity': 56.3, 'average': 19.58, 'std_dev': 5.17, 'anomaly_flag': False, 'processed_timestamp': 1746297520.177396}
+[2025-05-03 21:38:40] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:40] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:40] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64593), spawning handler thread
+[2025-05-03 21:38:41] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64593)
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64594), spawning handler thread
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297521.6774132, "temperature": 23.6, "humidity": 54.86}'
+[2025-05-03 21:38:41] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64594)
+[2025-05-03 21:38:41] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297521.6774132, 'temperature': 23.6, 'humidity': 54.86}
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297521.677513, "temperature": 26.35, "humidity": 61.7}'
+[2025-05-03 21:38:41] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297521.6774132, 'temperature': 23.6, 'humidity': 54.86, 'average': 21.07, 'std_dev': 5.04, 'anomaly_flag': False, 'processed_timestamp': 1746297521.681483}
+[2025-05-03 21:38:41] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297521.677513, 'temperature': 26.35, 'humidity': 61.7}
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:41] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297521.677513, 'temperature': 26.35, 'humidity': 61.7, 'average': 22.69, 'std_dev': 5.17, 'anomaly_flag': False, 'processed_timestamp': 1746297521.68194}
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:41] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:41] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:41] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:42] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64597), spawning handler thread
+[2025-05-03 21:38:42] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64597)
+[2025-05-03 21:38:42] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297522.181102, "temperature": 20.5, "humidity": 39.27}'
+[2025-05-03 21:38:42] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297522.181102, 'temperature': 20.5, 'humidity': 39.27}
+[2025-05-03 21:38:42] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297522.181102, 'temperature': 20.5, 'humidity': 39.27, 'average': 20.86, 'std_dev': 3.84, 'anomaly_flag': False, 'processed_timestamp': 1746297522.1822631}
+[2025-05-03 21:38:42] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:42] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:42] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64600), spawning handler thread
+[2025-05-03 21:38:43] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64600)
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64599), spawning handler thread
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297523.6835032, "temperature": 22.21, "humidity": 61.0}'
+[2025-05-03 21:38:43] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64599)
+[2025-05-03 21:38:43] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297523.6835032, 'temperature': 22.21, 'humidity': 61.0}
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297523.6835048, "temperature": 28.0, "humidity": 68.12}'
+[2025-05-03 21:38:43] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297523.6835032, 'temperature': 22.21, 'humidity': 61.0, 'average': 21.6, 'std_dev': 3.66, 'anomaly_flag': False, 'processed_timestamp': 1746297523.684869}
+[2025-05-03 21:38:43] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297523.6835048, 'temperature': 28.0, 'humidity': 68.12}
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:43] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297523.6835048, 'temperature': 28.0, 'humidity': 68.12, 'average': 24.13, 'std_dev': 2.72, 'anomaly_flag': False, 'processed_timestamp': 1746297523.685191}
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:43] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:43] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:43] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:44] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64604), spawning handler thread
+[2025-05-03 21:38:44] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64604)
+[2025-05-03 21:38:44] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297524.185848, "temperature": 25.82, "humidity": 50.18}'
+[2025-05-03 21:38:44] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297524.185848, 'temperature': 25.82, 'humidity': 50.18}
+[2025-05-03 21:38:44] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297524.185848, 'temperature': 25.82, 'humidity': 50.18, 'average': 24.58, 'std_dev': 2.78, 'anomaly_flag': False, 'processed_timestamp': 1746297524.187092}
+[2025-05-03 21:38:44] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:44] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:44] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64607), spawning handler thread
+[2025-05-03 21:38:45] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64607)
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64606), spawning handler thread
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297525.6907961, "temperature": 17.13, "humidity": 49.83}'
+[2025-05-03 21:38:45] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64606)
+[2025-05-03 21:38:45] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297525.6907961, 'temperature': 17.13, 'humidity': 49.83}
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297525.690889, "temperature": 22.96, "humidity": 41.87}'
+[2025-05-03 21:38:45] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297525.6907961, 'temperature': 17.13, 'humidity': 49.83, 'average': 22.73, 'std_dev': 3.85, 'anomaly_flag': False, 'processed_timestamp': 1746297525.692241}
+[2025-05-03 21:38:45] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297525.690889, 'temperature': 22.96, 'humidity': 41.87}
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:45] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297525.690889, 'temperature': 22.96, 'humidity': 41.87, 'average': 23.22, 'std_dev': 3.68, 'anomaly_flag': False, 'processed_timestamp': 1746297525.6924999}
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:45] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:45] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:45] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:46] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64610), spawning handler thread
+[2025-05-03 21:38:46] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64610)
+[2025-05-03 21:38:46] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297526.192682, "temperature": 17.52, "humidity": 36.54}'
+[2025-05-03 21:38:46] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297526.192682, 'temperature': 17.52, 'humidity': 36.54}
+[2025-05-03 21:38:46] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297526.192682, 'temperature': 17.52, 'humidity': 36.54, 'average': 22.29, 'std_dev': 4.36, 'anomaly_flag': False, 'processed_timestamp': 1746297526.194272}
+[2025-05-03 21:38:46] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:46] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:46] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64612), spawning handler thread
+[2025-05-03 21:38:47] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64612)
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64613), spawning handler thread
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297527.6938298, "temperature": 28.4, "humidity": 68.55}'
+[2025-05-03 21:38:47] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64613)
+[2025-05-03 21:38:47] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297527.6938298, 'temperature': 28.4, 'humidity': 68.55}
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297527.694093, "temperature": 24.91, "humidity": 58.01}'
+[2025-05-03 21:38:47] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297527.6938298, 'temperature': 28.4, 'humidity': 68.55, 'average': 22.37, 'std_dev': 4.46, 'anomaly_flag': False, 'processed_timestamp': 1746297527.6953988}
+[2025-05-03 21:38:47] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297527.694093, 'temperature': 24.91, 'humidity': 58.01}
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:47] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297527.694093, 'temperature': 24.91, 'humidity': 58.01, 'average': 22.18, 'std_dev': 4.34, 'anomaly_flag': False, 'processed_timestamp': 1746297527.6957629}
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:47] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:47] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:47] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:48] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64617), spawning handler thread
+[2025-05-03 21:38:48] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64617)
+[2025-05-03 21:38:48] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297528.1999428, "temperature": 24.49, "humidity": 48.72}'
+[2025-05-03 21:38:48] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297528.1999428, 'temperature': 24.49, 'humidity': 48.72}
+[2025-05-03 21:38:48] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297528.1999428, 'temperature': 24.49, 'humidity': 48.72, 'average': 23.66, 'std_dev': 3.55, 'anomaly_flag': False, 'processed_timestamp': 1746297528.202379}
+[2025-05-03 21:38:48] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:48] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:48] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64619), spawning handler thread
+[2025-05-03 21:38:49] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64619)
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64620), spawning handler thread
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297529.701751, "temperature": 26.53, "humidity": 32.08}'
+[2025-05-03 21:38:49] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64620)
+[2025-05-03 21:38:49] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297529.701751, 'temperature': 26.53, 'humidity': 32.08}
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297529.701749, "temperature": 27.7, "humidity": 66.92}'
+[2025-05-03 21:38:49] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297529.701751, 'temperature': 26.53, 'humidity': 32.08, 'average': 24.37, 'std_dev': 3.69, 'anomaly_flag': False, 'processed_timestamp': 1746297529.703223}
+[2025-05-03 21:38:49] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297529.701749, 'temperature': 27.7, 'humidity': 66.92}
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:49] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297529.701749, 'temperature': 27.7, 'humidity': 66.92, 'average': 26.41, 'std_dev': 1.52, 'anomaly_flag': False, 'processed_timestamp': 1746297529.7034361}
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:49] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:49] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:49] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:50] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64623), spawning handler thread
+[2025-05-03 21:38:50] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64623)
+[2025-05-03 21:38:50] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297530.208549, "temperature": 29.21, "humidity": 51.37}'
+[2025-05-03 21:38:50] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297530.208549, 'temperature': 29.21, 'humidity': 51.37}
+[2025-05-03 21:38:50] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297530.208549, 'temperature': 29.21, 'humidity': 51.37, 'average': 26.57, 'std_dev': 1.75, 'anomaly_flag': False, 'processed_timestamp': 1746297530.2103128}
+[2025-05-03 21:38:50] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:50] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:50] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64625), spawning handler thread
+[2025-05-03 21:38:51] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64625)
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64626), spawning handler thread
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297531.707849, "temperature": 22.5, "humidity": 57.59}'
+[2025-05-03 21:38:51] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64626)
+[2025-05-03 21:38:51] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297531.707849, 'temperature': 22.5, 'humidity': 57.59}
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297531.708918, "temperature": 24.87, "humidity": 56.64}'
+[2025-05-03 21:38:51] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297531.707849, 'temperature': 22.5, 'humidity': 57.59, 'average': 26.09, 'std_dev': 2.37, 'anomaly_flag': False, 'processed_timestamp': 1746297531.710699}
+[2025-05-03 21:38:51] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297531.708918, 'temperature': 24.87, 'humidity': 56.64}
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:51] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297531.708918, 'temperature': 24.87, 'humidity': 56.64, 'average': 26.16, 'std_dev': 2.32, 'anomaly_flag': False, 'processed_timestamp': 1746297531.711165}
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:51] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:51] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:51] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:52] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64629), spawning handler thread
+[2025-05-03 21:38:52] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64629)
+[2025-05-03 21:38:52] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297532.2160761, "temperature": 27.35, "humidity": 54.36}'
+[2025-05-03 21:38:52] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297532.2160761, 'temperature': 27.35, 'humidity': 54.36}
+[2025-05-03 21:38:52] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297532.2160761, 'temperature': 27.35, 'humidity': 54.36, 'average': 26.33, 'std_dev': 2.37, 'anomaly_flag': False, 'processed_timestamp': 1746297532.219627}
+[2025-05-03 21:38:52] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:52] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:52] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64631), spawning handler thread
+[2025-05-03 21:38:53] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64631)
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297533.7125509, "temperature": 21.86, "humidity": 40.52}'
+[2025-05-03 21:38:53] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297533.7125509, 'temperature': 21.86, 'humidity': 40.52}
+[2025-05-03 21:38:53] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297533.7125509, 'temperature': 21.86, 'humidity': 40.52, 'average': 25.16, 'std_dev': 2.8, 'anomaly_flag': False, 'processed_timestamp': 1746297533.714582}
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:53] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64633), spawning handler thread
+[2025-05-03 21:38:53] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64633)
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297533.717341, "temperature": 15.49, "humidity": 50.9}'
+[2025-05-03 21:38:53] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297533.717341, 'temperature': 15.49, 'humidity': 50.9}
+[2025-05-03 21:38:53] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297533.717341, 'temperature': 15.49, 'humidity': 50.9, 'average': 22.41, 'std_dev': 3.97, 'anomaly_flag': False, 'processed_timestamp': 1746297533.718453}
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:53] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:53] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:38:54] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 64635), spawning handler thread
+[2025-05-03 21:38:54] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 64635)
+[2025-05-03 21:38:54] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297534.221586, "temperature": 26.31, "humidity": 48.15}'
+[2025-05-03 21:38:54] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297534.221586, 'temperature': 26.31, 'humidity': 48.15}
+[2025-05-03 21:38:54] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297534.221586, 'temperature': 26.31, 'humidity': 48.15, 'average': 23.18, 'std_dev': 4.26, 'anomaly_flag': False, 'processed_timestamp': 1746297534.22397}
+[2025-05-03 21:38:54] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:38:54] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:38:54] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:16] [DroneTCPServer] [WARNING] Tkinter not available; GUI disabled
+[2025-05-03 21:43:16] [DroneTCPServer] [INFO] Loaded config from config/drone_config.yaml
+[2025-05-03 21:43:16] [DroneTCPServer] [DEBUG] Drone host: 127.0.0.1
+[2025-05-03 21:43:16] [DroneTCPServer] [DEBUG] Drone port: 9000
+[2025-05-03 21:43:16] [DroneTCPServer] [DEBUG] Server host: 127.0.0.1
+[2025-05-03 21:43:16] [DroneTCPServer] [DEBUG] Server port: 10000
+[2025-05-03 21:43:16] [DroneTCPServer] [INFO] EdgeProcessor initialized.
+[2025-05-03 21:43:16] [DroneTCPServer] [INFO] BatteryMonitor started.
+[2025-05-03 21:43:16] [DroneTCPServer] [INFO] Sunucu dinlemede: 127.0.0.1:9000
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65040), spawning handler thread
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65040)
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65041), spawning handler thread
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297798.7731771, "temperature": 26.23, "humidity": 48.08}'
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65041)
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297798.7731771, 'temperature': 26.23, 'humidity': 48.08}
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65042), spawning handler thread
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297798.774734, "temperature": 18.66, "humidity": 44.45}'
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297798.7731771, 'temperature': 26.23, 'humidity': 48.08, 'average': 26.23, 'std_dev': 0.0, 'anomaly_flag': False, 'processed_timestamp': 1746297798.777642}
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65042)
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297798.774734, 'temperature': 18.66, 'humidity': 44.45}
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297798.774732, "temperature": 26.29, "humidity": 34.88}'
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297798.774734, 'temperature': 18.66, 'humidity': 44.45, 'average': 22.45, 'std_dev': 3.79, 'anomaly_flag': False, 'processed_timestamp': 1746297798.778514}
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297798.774732, 'temperature': 26.29, 'humidity': 34.88}
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297798.774732, 'temperature': 26.29, 'humidity': 34.88, 'average': 23.73, 'std_dev': 3.58, 'anomaly_flag': False, 'processed_timestamp': 1746297798.7793531}
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:18] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:18] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65048), spawning handler thread
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65048)
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65047), spawning handler thread
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297800.7879071, "temperature": 26.86, "humidity": 46.8}'
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65047)
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297800.7879071, 'temperature': 26.86, 'humidity': 46.8}
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297800.788363, "temperature": 16.05, "humidity": 40.94}'
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65046), spawning handler thread
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297800.7879071, 'temperature': 26.86, 'humidity': 46.8, 'average': 24.51, 'std_dev': 3.39, 'anomaly_flag': False, 'processed_timestamp': 1746297800.794229}
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297800.788363, 'temperature': 16.05, 'humidity': 40.94}
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65046)
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297800.788363, 'temperature': 16.05, 'humidity': 40.94, 'average': 22.82, 'std_dev': 4.54, 'anomaly_flag': False, 'processed_timestamp': 1746297800.795031}
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297800.789888, "temperature": 17.49, "humidity": 69.69}'
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297800.789888, 'temperature': 17.49, 'humidity': 69.69}
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297800.789888, 'temperature': 17.49, 'humidity': 69.69, 'average': 21.07, 'std_dev': 4.57, 'anomaly_flag': False, 'processed_timestamp': 1746297800.795926}
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:20] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:20] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65052), spawning handler thread
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65052)
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297802.7992609, "temperature": 15.88, "humidity": 55.0}'
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297802.7992609, 'temperature': 15.88, 'humidity': 55.0}
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297802.7992609, 'temperature': 15.88, 'humidity': 55.0, 'average': 20.51, 'std_dev': 4.98, 'anomaly_flag': False, 'processed_timestamp': 1746297802.8023198}
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65054), spawning handler thread
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65054)
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65055), spawning handler thread
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297802.80283, "temperature": 26.59, "humidity": 41.86}'
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65055)
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297802.80283, 'temperature': 26.59, 'humidity': 41.86}
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297802.8028271, "temperature": 28.41, "humidity": 67.42}'
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297802.80283, 'temperature': 26.59, 'humidity': 41.86, 'average': 20.57, 'std_dev': 5.05, 'anomaly_flag': False, 'processed_timestamp': 1746297802.8048298}
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297802.8028271, 'temperature': 28.41, 'humidity': 67.42}
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297802.8028271, 'temperature': 28.41, 'humidity': 67.42, 'average': 20.88, 'std_dev': 5.46, 'anomaly_flag': False, 'processed_timestamp': 1746297802.805254}
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:22] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:22] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65058), spawning handler thread
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65058)
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297804.806446, "temperature": 17.47, "humidity": 42.57}'
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297804.806446, 'temperature': 17.47, 'humidity': 42.57}
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297804.806446, 'temperature': 17.47, 'humidity': 42.57, 'average': 21.17, 'std_dev': 5.23, 'anomaly_flag': False, 'processed_timestamp': 1746297804.807759}
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65060), spawning handler thread
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65060)
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297804.808736, "temperature": 29.08, "humidity": 45.34}'
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297804.808736, 'temperature': 29.08, 'humidity': 45.34}
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297804.808736, 'temperature': 29.08, 'humidity': 45.34, 'average': 23.49, 'std_dev': 5.64, 'anomaly_flag': False, 'processed_timestamp': 1746297804.80937}
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65062), spawning handler thread
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65062)
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297804.8122828, "temperature": 15.28, "humidity": 32.61}'
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297804.8122828, 'temperature': 15.28, 'humidity': 32.61}
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297804.8122828, 'temperature': 15.28, 'humidity': 32.61, 'average': 23.37, 'std_dev': 5.81, 'anomaly_flag': False, 'processed_timestamp': 1746297804.81299}
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:24] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:24] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65064), spawning handler thread
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65064)
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297806.813399, "temperature": 27.87, "humidity": 52.45}'
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65065), spawning handler thread
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297806.813399, 'temperature': 27.87, 'humidity': 52.45}
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65065)
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297806.813399, 'temperature': 27.87, 'humidity': 52.45, 'average': 23.62, 'std_dev': 5.97, 'anomaly_flag': False, 'processed_timestamp': 1746297806.816588}
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297806.8147762, "temperature": 26.54, "humidity": 54.9}'
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297806.8147762, 'temperature': 26.54, 'humidity': 54.9}
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297806.8147762, 'temperature': 26.54, 'humidity': 54.9, 'average': 23.25, 'std_dev': 5.71, 'anomaly_flag': False, 'processed_timestamp': 1746297806.817238}
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65068), spawning handler thread
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65068)
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297806.818557, "temperature": 27.2, "humidity": 68.81}'
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297806.818557, 'temperature': 27.2, 'humidity': 68.81}
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297806.818557, 'temperature': 27.2, 'humidity': 68.81, 'average': 25.19, 'std_dev': 5.03, 'anomaly_flag': False, 'processed_timestamp': 1746297806.8201401}
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:26] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:26] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65070), spawning handler thread
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65070)
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297808.819385, "temperature": 24.61, "humidity": 36.21}'
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297808.819385, 'temperature': 24.61, 'humidity': 36.21}
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297808.819385, 'temperature': 24.61, 'humidity': 36.21, 'average': 24.3, 'std_dev': 4.64, 'anomaly_flag': False, 'processed_timestamp': 1746297808.821022}
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65072), spawning handler thread
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65072)
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297808.821097, "temperature": 27.16, "humidity": 62.31}'
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297808.821097, 'temperature': 27.16, 'humidity': 62.31}
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297808.821097, 'temperature': 27.16, 'humidity': 62.31, 'average': 26.68, 'std_dev': 1.12, 'anomaly_flag': False, 'processed_timestamp': 1746297808.8225338}
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65073), spawning handler thread
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65073)
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297808.82136, "temperature": 17.02, "humidity": 58.96}'
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297808.82136, 'temperature': 17.02, 'humidity': 58.96}
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297808.82136, 'temperature': 17.02, 'humidity': 58.96, 'average': 24.51, 'std_dev': 3.86, 'anomaly_flag': False, 'processed_timestamp': 1746297808.823427}
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:28] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:28] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65076), spawning handler thread
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65076)
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65077), spawning handler thread
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297810.825554, "temperature": 22.19, "humidity": 58.45}'
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65077)
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65078), spawning handler thread
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297810.825554, 'temperature': 22.19, 'humidity': 58.45}
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297810.825553, "temperature": 24.84, "humidity": 46.51}'
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65078)
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297810.825554, 'temperature': 22.19, 'humidity': 58.45, 'average': 23.64, 'std_dev': 3.79, 'anomaly_flag': False, 'processed_timestamp': 1746297810.828542}
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297810.825553, 'temperature': 24.84, 'humidity': 46.51}
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297810.827552, "temperature": 19.87, "humidity": 55.07}'
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297810.825553, 'temperature': 24.84, 'humidity': 46.51, 'average': 23.16, 'std_dev': 3.45, 'anomaly_flag': False, 'processed_timestamp': 1746297810.829112}
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297810.827552, 'temperature': 19.87, 'humidity': 55.07}
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297810.827552, 'temperature': 19.87, 'humidity': 55.07, 'average': 22.22, 'std_dev': 3.57, 'anomaly_flag': False, 'processed_timestamp': 1746297810.829694}
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:30] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:30] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65082), spawning handler thread
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65082)
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297812.831527, "temperature": 18.24, "humidity": 52.29}'
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297812.831527, 'temperature': 18.24, 'humidity': 52.29}
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297812.831527, 'temperature': 18.24, 'humidity': 52.29, 'average': 20.43, 'std_dev': 2.8, 'anomaly_flag': False, 'processed_timestamp': 1746297812.835039}
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65083), spawning handler thread
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65083)
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297812.834313, "temperature": 27.1, "humidity": 67.53}'
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297812.834313, 'temperature': 27.1, 'humidity': 67.53}
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297812.834313, 'temperature': 27.1, 'humidity': 67.53, 'average': 22.45, 'std_dev': 3.22, 'anomaly_flag': False, 'processed_timestamp': 1746297812.83619}
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65085), spawning handler thread
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65085)
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297812.835755, "temperature": 20.51, "humidity": 63.45}'
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297812.835755, 'temperature': 20.51, 'humidity': 63.45}
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297812.835755, 'temperature': 20.51, 'humidity': 63.45, 'average': 22.11, 'std_dev': 3.31, 'anomaly_flag': False, 'processed_timestamp': 1746297812.837857}
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:32] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:32] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65089), spawning handler thread
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65089)
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297814.8421278, "temperature": 22.92, "humidity": 39.95}'
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297814.8421278, 'temperature': 22.92, 'humidity': 39.95}
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297814.8421278, 'temperature': 22.92, 'humidity': 39.95, 'average': 21.73, 'std_dev': 3.08, 'anomaly_flag': False, 'processed_timestamp': 1746297814.843194}
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65091), spawning handler thread
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65091)
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297814.843486, "temperature": 16.41, "humidity": 47.6}'
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65092), spawning handler thread
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297814.843486, 'temperature': 16.41, 'humidity': 47.6}
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65092)
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297814.843486, 'temperature': 16.41, 'humidity': 47.6, 'average': 21.04, 'std_dev': 3.74, 'anomaly_flag': False, 'processed_timestamp': 1746297814.844246}
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297814.843483, "temperature": 15.5, "humidity": 61.23}'
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297814.843483, 'temperature': 15.5, 'humidity': 61.23}
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297814.843483, 'temperature': 15.5, 'humidity': 61.23, 'average': 20.49, 'std_dev': 4.27, 'anomaly_flag': False, 'processed_timestamp': 1746297814.844523}
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:34] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:34] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65095), spawning handler thread
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65095)
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65096), spawning handler thread
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297816.848804, "temperature": 17.79, "humidity": 56.91}'
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65096)
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297816.848804, 'temperature': 17.79, 'humidity': 56.91}
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65097), spawning handler thread
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297816.850028, "temperature": 17.05, "humidity": 55.59}'
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297816.848804, 'temperature': 17.79, 'humidity': 56.91, 'average': 18.63, 'std_dev': 2.73, 'anomaly_flag': False, 'processed_timestamp': 1746297816.851709}
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65097)
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297816.850028, 'temperature': 17.05, 'humidity': 55.59}
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297816.849947, "temperature": 23.99, "humidity": 54.63}'
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297816.850028, 'temperature': 17.05, 'humidity': 55.59, 'average': 17.93, 'std_dev': 2.6, 'anomaly_flag': False, 'processed_timestamp': 1746297816.8525062}
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297816.849947, 'temperature': 23.99, 'humidity': 54.63}
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297816.849947, 'temperature': 23.99, 'humidity': 54.63, 'average': 18.15, 'std_dev': 3.02, 'anomaly_flag': False, 'processed_timestamp': 1746297816.8530402}
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:36] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:36] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65102), spawning handler thread
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65102)
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65103), spawning handler thread
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297818.8581069, "temperature": 18.44, "humidity": 61.72}'
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297818.8581069, 'temperature': 18.44, 'humidity': 61.72}
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65103)
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297818.8581069, 'temperature': 18.44, 'humidity': 61.72, 'average': 18.55, 'std_dev': 2.89, 'anomaly_flag': False, 'processed_timestamp': 1746297818.859188}
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297818.8581078, "temperature": 27.0, "humidity": 42.82}'
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297818.8581078, 'temperature': 27.0, 'humidity': 42.82}
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297818.8581078, 'temperature': 27.0, 'humidity': 42.82, 'average': 20.85, 'std_dev': 3.93, 'anomaly_flag': False, 'processed_timestamp': 1746297818.859539}
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65104), spawning handler thread
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65104)
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297818.8591628, "temperature": 23.79, "humidity": 60.06}'
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297818.8591628, 'temperature': 23.79, 'humidity': 60.06}
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297818.8591628, 'temperature': 23.79, 'humidity': 60.06, 'average': 22.05, 'std_dev': 3.72, 'anomaly_flag': False, 'processed_timestamp': 1746297818.860491}
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:38] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:38] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65110), spawning handler thread
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65110)
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297820.86539, "temperature": 22.78, "humidity": 57.29}'
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65109), spawning handler thread
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297820.86539, 'temperature': 22.78, 'humidity': 57.29}
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65109)
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65111), spawning handler thread
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297820.86539, 'temperature': 22.78, 'humidity': 57.29, 'average': 23.2, 'std_dev': 2.77, 'anomaly_flag': False, 'processed_timestamp': 1746297820.868873}
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297820.8652859, "temperature": 28.13, "humidity": 53.05}'
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65111)
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297820.8652859, 'temperature': 28.13, 'humidity': 53.05}
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297820.865713, "temperature": 22.49, "humidity": 38.79}'
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297820.8652859, 'temperature': 28.13, 'humidity': 53.05, 'average': 24.03, 'std_dev': 3.42, 'anomaly_flag': False, 'processed_timestamp': 1746297820.8698208}
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297820.865713, 'temperature': 22.49, 'humidity': 38.79}
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297820.865713, 'temperature': 22.49, 'humidity': 38.79, 'average': 24.84, 'std_dev': 2.3, 'anomaly_flag': False, 'processed_timestamp': 1746297820.870334}
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:40] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:40] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65115), spawning handler thread
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65115)
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297822.8735628, "temperature": 18.39, "humidity": 63.08}'
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297822.8735628, 'temperature': 18.39, 'humidity': 63.08}
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65116), spawning handler thread
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297822.8735628, 'temperature': 18.39, 'humidity': 63.08, 'average': 23.12, 'std_dev': 3.11, 'anomaly_flag': False, 'processed_timestamp': 1746297822.875254}
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65116)
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65117), spawning handler thread
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297822.874597, "temperature": 17.01, "humidity": 50.31}'
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65117)
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297822.874597, 'temperature': 17.01, 'humidity': 50.31}
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297822.8750138, "temperature": 17.06, "humidity": 37.38}'
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297822.874597, 'temperature': 17.01, 'humidity': 50.31, 'average': 21.76, 'std_dev': 3.9, 'anomaly_flag': False, 'processed_timestamp': 1746297822.8764648}
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297822.8750138, 'temperature': 17.06, 'humidity': 37.38}
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297822.8750138, 'temperature': 17.06, 'humidity': 37.38, 'average': 20.62, 'std_dev': 4.26, 'anomaly_flag': False, 'processed_timestamp': 1746297822.877008}
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:42] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:42] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65121), spawning handler thread
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65121)
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297824.881362, "temperature": 19.75, "humidity": 54.32}'
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297824.881362, 'temperature': 19.75, 'humidity': 54.32}
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297824.881362, 'temperature': 19.75, 'humidity': 54.32, 'average': 18.94, 'std_dev': 2.04, 'anomaly_flag': False, 'processed_timestamp': 1746297824.8825102}
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65123), spawning handler thread
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65123)
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65124), spawning handler thread
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297824.8829231, "temperature": 23.21, "humidity": 60.18}'
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297824.8829231, 'temperature': 23.21, 'humidity': 60.18}
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297824.8829231, 'temperature': 23.21, 'humidity': 60.18, 'average': 19.08, 'std_dev': 2.3, 'anomaly_flag': False, 'processed_timestamp': 1746297824.883735}
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65124)
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297824.882926, "temperature": 26.79, "humidity": 57.15}'
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297824.882926, 'temperature': 26.79, 'humidity': 57.15}
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297824.882926, 'temperature': 26.79, 'humidity': 57.15, 'average': 20.76, 'std_dev': 3.77, 'anomaly_flag': False, 'processed_timestamp': 1746297824.88417}
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:44] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:44] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65128), spawning handler thread
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65128)
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297826.888183, "temperature": 16.63, "humidity": 62.57}'
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297826.888183, 'temperature': 16.63, 'humidity': 62.57}
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297826.888183, 'temperature': 16.63, 'humidity': 62.57, 'average': 20.69, 'std_dev': 3.85, 'anomaly_flag': False, 'processed_timestamp': 1746297826.891367}
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65129), spawning handler thread
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65129)
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65130), spawning handler thread
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297826.889858, "temperature": 24.8, "humidity": 45.74}'
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65130)
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297826.889858, 'temperature': 24.8, 'humidity': 45.74}
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297826.889858, 'temperature': 24.8, 'humidity': 45.74, 'average': 22.24, 'std_dev': 3.63, 'anomaly_flag': False, 'processed_timestamp': 1746297826.893248}
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297826.889934, "temperature": 18.09, "humidity": 43.2}'
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297826.889934, 'temperature': 18.09, 'humidity': 43.2}
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297826.889934, 'temperature': 18.09, 'humidity': 43.2, 'average': 21.9, 'std_dev': 3.91, 'anomaly_flag': False, 'processed_timestamp': 1746297826.894884}
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:46] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:46] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65134), spawning handler thread
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65134)
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65135), spawning handler thread
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297828.899831, "temperature": 19.36, "humidity": 42.78}'
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65135)
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297828.899831, 'temperature': 19.36, 'humidity': 42.78}
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65136), spawning handler thread
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297828.899831, "temperature": 15.47, "humidity": 30.55}'
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297828.899831, 'temperature': 19.36, 'humidity': 42.78, 'average': 21.13, 'std_dev': 3.95, 'anomaly_flag': False, 'processed_timestamp': 1746297828.901221}
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65136)
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297828.899831, 'temperature': 15.47, 'humidity': 30.55}
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297828.899831, "temperature": 27.73, "humidity": 38.45}'
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297828.899831, 'temperature': 15.47, 'humidity': 30.55, 'average': 18.87, 'std_dev': 3.24, 'anomaly_flag': False, 'processed_timestamp': 1746297828.901542}
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297828.899831, 'temperature': 27.73, 'humidity': 38.45}
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297828.899831, 'temperature': 27.73, 'humidity': 38.45, 'average': 21.09, 'std_dev': 4.5, 'anomaly_flag': False, 'processed_timestamp': 1746297828.901815}
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:48] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:48] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65140), spawning handler thread
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65140)
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65141), spawning handler thread
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297830.9071949, "temperature": 16.05, "humidity": 35.56}'
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65141)
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65142), spawning handler thread
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297830.9071949, 'temperature': 16.05, 'humidity': 35.56}
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297830.907532, "temperature": 25.18, "humidity": 57.4}'
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65142)
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297830.9071949, 'temperature': 16.05, 'humidity': 35.56, 'average': 19.34, 'std_dev': 4.42, 'anomaly_flag': False, 'processed_timestamp': 1746297830.908897}
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297830.907532, 'temperature': 25.18, 'humidity': 57.4}
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297830.907516, "temperature": 16.12, "humidity": 42.35}'
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297830.907532, 'temperature': 25.18, 'humidity': 57.4, 'average': 20.76, 'std_dev': 4.9, 'anomaly_flag': False, 'processed_timestamp': 1746297830.90939}
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297830.907516, 'temperature': 16.12, 'humidity': 42.35}
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297830.907516, 'temperature': 16.12, 'humidity': 42.35, 'average': 20.11, 'std_dev': 5.25, 'anomaly_flag': False, 'processed_timestamp': 1746297830.909993}
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:50] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:50] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65146), spawning handler thread
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65146)
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65147), spawning handler thread
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297832.912874, "temperature": 21.39, "humidity": 57.99}'
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65147)
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65148), spawning handler thread
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297832.912874, 'temperature': 21.39, 'humidity': 57.99}
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297832.912874, "temperature": 21.01, "humidity": 35.49}'
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65148)
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297832.912874, 'temperature': 21.39, 'humidity': 57.99, 'average': 21.29, 'std_dev': 4.71, 'anomaly_flag': False, 'processed_timestamp': 1746297832.9175239}
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297832.912874, 'temperature': 21.01, 'humidity': 35.49}
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297832.915614, "temperature": 24.03, "humidity": 37.89}'
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297832.912874, 'temperature': 21.01, 'humidity': 35.49, 'average': 19.95, 'std_dev': 3.48, 'anomaly_flag': False, 'processed_timestamp': 1746297832.918099}
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297832.915614, 'temperature': 24.03, 'humidity': 37.89}
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297832.915614, 'temperature': 24.03, 'humidity': 37.89, 'average': 21.55, 'std_dev': 3.13, 'anomaly_flag': False, 'processed_timestamp': 1746297832.918704}
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:52] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:52] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65152), spawning handler thread
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65152)
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297834.9243379, "temperature": 27.58, "humidity": 64.98}'
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65153), spawning handler thread
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297834.9243379, 'temperature': 27.58, 'humidity': 64.98}
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65153)
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297834.9243379, 'temperature': 27.58, 'humidity': 64.98, 'average': 22.03, 'std_dev': 3.77, 'anomaly_flag': False, 'processed_timestamp': 1746297834.925888}
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297834.924727, "temperature": 27.51, "humidity": 40.13}'
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297834.924727, 'temperature': 27.51, 'humidity': 40.13}
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297834.924727, 'temperature': 27.51, 'humidity': 40.13, 'average': 24.3, 'std_dev': 2.84, 'anomaly_flag': False, 'processed_timestamp': 1746297834.926451}
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65154), spawning handler thread
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65154)
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297834.926193, "temperature": 28.69, "humidity": 38.53}'
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297834.926193, 'temperature': 28.69, 'humidity': 38.53}
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297834.926193, 'temperature': 28.69, 'humidity': 38.53, 'average': 25.76, 'std_dev': 2.85, 'anomaly_flag': False, 'processed_timestamp': 1746297834.927926}
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:54] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:54] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65159), spawning handler thread
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65159)
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65158), spawning handler thread
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297836.932408, "temperature": 20.53, "humidity": 31.74}'
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65158)
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65160), spawning handler thread
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297836.932408, 'temperature': 20.53, 'humidity': 31.74}
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297836.932673, "temperature": 17.15, "humidity": 55.76}'
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65160)
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297836.932408, 'temperature': 20.53, 'humidity': 31.74, 'average': 25.67, 'std_dev': 3.01, 'anomaly_flag': False, 'processed_timestamp': 1746297836.936349}
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297836.932673, 'temperature': 17.15, 'humidity': 55.76}
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297836.933475, "temperature": 17.94, "humidity": 46.04}'
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297836.932673, 'temperature': 17.15, 'humidity': 55.76, 'average': 24.29, 'std_dev': 4.6, 'anomaly_flag': False, 'processed_timestamp': 1746297836.9369118}
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297836.933475, 'temperature': 17.94, 'humidity': 46.04}
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297836.933475, 'temperature': 17.94, 'humidity': 46.04, 'average': 22.36, 'std_dev': 4.83, 'anomaly_flag': False, 'processed_timestamp': 1746297836.9374762}
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:56] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:56] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65164), spawning handler thread
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65164)
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297838.94119, "temperature": 19.12, "humidity": 40.23}'
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297838.94119, 'temperature': 19.12, 'humidity': 40.23}
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297838.94119, 'temperature': 19.12, 'humidity': 40.23, 'average': 20.69, 'std_dev': 4.16, 'anomaly_flag': False, 'processed_timestamp': 1746297838.942111}
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65166), spawning handler thread
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65166)
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65167), spawning handler thread
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297838.942692, "temperature": 22.0, "humidity": 39.25}'
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297838.942692, 'temperature': 22.0, 'humidity': 39.25}
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297838.942692, 'temperature': 22.0, 'humidity': 39.25, 'average': 19.35, 'std_dev': 1.75, 'anomaly_flag': False, 'processed_timestamp': 1746297838.9435258}
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65167)
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297838.942729, "temperature": 15.06, "humidity": 69.89}'
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297838.942729, 'temperature': 15.06, 'humidity': 69.89}
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297838.942729, 'temperature': 15.06, 'humidity': 69.89, 'average': 18.25, 'std_dev': 2.29, 'anomaly_flag': False, 'processed_timestamp': 1746297838.943958}
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:43:58] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:43:58] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65170), spawning handler thread
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65170)
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297840.947768, "temperature": 20.13, "humidity": 60.35}'
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297840.947768, 'temperature': 20.13, 'humidity': 60.35}
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297840.947768, 'temperature': 20.13, 'humidity': 60.35, 'average': 18.85, 'std_dev': 2.32, 'anomaly_flag': False, 'processed_timestamp': 1746297840.95}
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65171), spawning handler thread
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65171)
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65172), spawning handler thread
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297840.949326, "temperature": 28.85, "humidity": 42.07}'
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65172)
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297840.949326, 'temperature': 28.85, 'humidity': 42.07}
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297840.949566, "temperature": 22.72, "humidity": 56.51}'
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297840.949326, 'temperature': 28.85, 'humidity': 42.07, 'average': 21.03, 'std_dev': 4.52, 'anomaly_flag': False, 'processed_timestamp': 1746297840.95203}
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297840.949566, 'temperature': 22.72, 'humidity': 56.51}
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297840.949566, 'temperature': 22.72, 'humidity': 56.51, 'average': 21.75, 'std_dev': 4.45, 'anomaly_flag': False, 'processed_timestamp': 1746297840.952658}
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:00] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:00] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65176), spawning handler thread
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65176)
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65177), spawning handler thread
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297842.956213, "temperature": 19.3, "humidity": 65.89}'
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65177)
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65178), spawning handler thread
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297842.956213, 'temperature': 19.3, 'humidity': 65.89}
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297842.9574049, "temperature": 20.77, "humidity": 63.87}'
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65178)
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297842.956213, 'temperature': 19.3, 'humidity': 65.89, 'average': 21.21, 'std_dev': 4.55, 'anomaly_flag': False, 'processed_timestamp': 1746297842.9604638}
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297842.9574049, 'temperature': 20.77, 'humidity': 63.87}
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297842.957519, "temperature": 24.9, "humidity": 53.99}'
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297842.9574049, 'temperature': 20.77, 'humidity': 63.87, 'average': 22.35, 'std_dev': 3.44, 'anomaly_flag': False, 'processed_timestamp': 1746297842.961012}
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297842.957519, 'temperature': 24.9, 'humidity': 53.99}
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297842.957519, 'temperature': 24.9, 'humidity': 53.99, 'average': 23.31, 'std_dev': 3.35, 'anomaly_flag': False, 'processed_timestamp': 1746297842.9615302}
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:02] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:02] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65182), spawning handler thread
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65182)
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297844.9656398, "temperature": 15.48, "humidity": 60.72}'
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297844.9656398, 'temperature': 15.48, 'humidity': 60.72}
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65183), spawning handler thread
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297844.9656398, 'temperature': 15.48, 'humidity': 60.72, 'average': 20.63, 'std_dev': 3.19, 'anomaly_flag': False, 'processed_timestamp': 1746297844.9673269}
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65183)
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297844.96658, "temperature": 21.42, "humidity": 44.07}'
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65184), spawning handler thread
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297844.96658, 'temperature': 21.42, 'humidity': 44.07}
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65184)
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297844.96658, 'temperature': 21.42, 'humidity': 44.07, 'average': 20.37, 'std_dev': 3.06, 'anomaly_flag': False, 'processed_timestamp': 1746297844.9687529}
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297844.9675221, "temperature": 18.45, "humidity": 50.35}'
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297844.9675221, 'temperature': 18.45, 'humidity': 50.35}
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297844.9675221, 'temperature': 18.45, 'humidity': 50.35, 'average': 20.2, 'std_dev': 3.14, 'anomaly_flag': False, 'processed_timestamp': 1746297844.969696}
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:04] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:04] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65188), spawning handler thread
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65188)
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65189), spawning handler thread
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297846.971623, "temperature": 26.28, "humidity": 40.58}'
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65189)
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297846.971623, 'temperature': 26.28, 'humidity': 40.58}
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297846.971622, "temperature": 24.92, "humidity": 56.38}'
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297846.971623, 'temperature': 26.28, 'humidity': 40.58, 'average': 21.31, 'std_dev': 3.99, 'anomaly_flag': False, 'processed_timestamp': 1746297846.9726799}
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297846.971622, 'temperature': 24.92, 'humidity': 56.38}
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297846.971622, 'temperature': 24.92, 'humidity': 56.38, 'average': 21.31, 'std_dev': 4.0, 'anomaly_flag': False, 'processed_timestamp': 1746297846.972924}
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65192), spawning handler thread
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65192)
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297846.975738, "temperature": 22.31, "humidity": 66.02}'
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297846.975738, 'temperature': 22.31, 'humidity': 66.02}
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297846.975738, 'temperature': 22.31, 'humidity': 66.02, 'average': 22.68, 'std_dev': 2.74, 'anomaly_flag': False, 'processed_timestamp': 1746297846.976297}
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:06] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:06] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65194), spawning handler thread
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65194)
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297848.978677, "temperature": 19.28, "humidity": 45.49}'
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65195), spawning handler thread
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297848.978677, 'temperature': 19.28, 'humidity': 45.49}
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65195)
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297848.978677, 'temperature': 19.28, 'humidity': 45.49, 'average': 22.25, 'std_dev': 3.05, 'anomaly_flag': False, 'processed_timestamp': 1746297848.980035}
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65196), spawning handler thread
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297848.978622, "temperature": 16.54, "humidity": 44.42}'
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65196)
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297848.978622, 'temperature': 16.54, 'humidity': 44.42}
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297848.9789162, "temperature": 15.76, "humidity": 52.34}'
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297848.978622, 'temperature': 16.54, 'humidity': 44.42, 'average': 21.87, 'std_dev': 3.58, 'anomaly_flag': False, 'processed_timestamp': 1746297848.980875}
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297848.9789162, 'temperature': 15.76, 'humidity': 52.34}
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297848.9789162, 'temperature': 15.76, 'humidity': 52.34, 'average': 19.76, 'std_dev': 3.46, 'anomaly_flag': False, 'processed_timestamp': 1746297848.9813209}
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:08] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:08] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65202), spawning handler thread
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65202)
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65200), spawning handler thread
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297850.98704, "temperature": 16.61, "humidity": 38.57}'
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65200)
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65201), spawning handler thread
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297850.98704, 'temperature': 16.61, 'humidity': 38.57}
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297850.9867039, "temperature": 29.43, "humidity": 36.09}'
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65201)
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297850.98704, 'temperature': 16.61, 'humidity': 38.57, 'average': 18.1, 'std_dev': 2.42, 'anomaly_flag': False, 'processed_timestamp': 1746297850.990659}
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297850.9867039, 'temperature': 29.43, 'humidity': 36.09}
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297850.9867039, "temperature": 29.5, "humidity": 55.07}'
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297850.9867039, 'temperature': 29.43, 'humidity': 36.09, 'average': 19.52, 'std_dev': 5.09, 'anomaly_flag': False, 'processed_timestamp': 1746297850.9912598}
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297850.9867039, 'temperature': 29.5, 'humidity': 55.07}
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297850.9867039, 'temperature': 29.5, 'humidity': 55.07, 'average': 21.57, 'std_dev': 6.45, 'anomaly_flag': False, 'processed_timestamp': 1746297850.991848}
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:10] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:10] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65206), spawning handler thread
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65206)
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65207), spawning handler thread
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297852.995262, "temperature": 24.79, "humidity": 56.89}'
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65207)
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65208), spawning handler thread
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297852.995262, 'temperature': 24.79, 'humidity': 56.89}
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297852.996615, "temperature": 18.59, "humidity": 50.46}'
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65208)
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297852.995262, 'temperature': 24.79, 'humidity': 56.89, 'average': 23.22, 'std_dev': 6.0, 'anomaly_flag': False, 'processed_timestamp': 1746297852.998702}
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297852.996615, 'temperature': 18.59, 'humidity': 50.46}
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297852.9968462, "temperature": 19.52, "humidity": 30.95}'
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297852.996615, 'temperature': 18.59, 'humidity': 50.46, 'average': 23.78, 'std_dev': 5.37, 'anomaly_flag': False, 'processed_timestamp': 1746297852.999299}
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297852.9968462, 'temperature': 19.52, 'humidity': 30.95}
+[2025-05-03 21:44:12] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:12] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297852.9968462, 'temperature': 19.52, 'humidity': 30.95, 'average': 24.37, 'std_dev': 4.67, 'anomaly_flag': False, 'processed_timestamp': 1746297852.999881}
+[2025-05-03 21:44:13] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:13] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:13] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:13] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:13] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:13] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:13] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65212), spawning handler thread
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65212)
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297855.0017312, "temperature": 20.81, "humidity": 46.59}'
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297855.0017312, 'temperature': 20.81, 'humidity': 46.59}
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297855.0017312, 'temperature': 20.81, 'humidity': 46.59, 'average': 22.64, 'std_dev': 4.03, 'anomaly_flag': False, 'processed_timestamp': 1746297855.0045838}
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65213), spawning handler thread
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65213)
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65214), spawning handler thread
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297855.0022762, "temperature": 15.26, "humidity": 39.3}'
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65214)
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297855.0022762, 'temperature': 15.26, 'humidity': 39.3}
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297855.004181, "temperature": 25.45, "humidity": 40.69}'
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297855.0022762, 'temperature': 15.26, 'humidity': 39.3, 'average': 19.79, 'std_dev': 3.1, 'anomaly_flag': False, 'processed_timestamp': 1746297855.006233}
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297855.004181, 'temperature': 25.45, 'humidity': 40.69}
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297855.004181, 'temperature': 25.45, 'humidity': 40.69, 'average': 19.93, 'std_dev': 3.32, 'anomaly_flag': False, 'processed_timestamp': 1746297855.006761}
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:15] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:15] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65218), spawning handler thread
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65218)
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297857.009774, "temperature": 23.75, "humidity": 45.29}'
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297857.009774, 'temperature': 23.75, 'humidity': 45.29}
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297857.009774, 'temperature': 23.75, 'humidity': 45.29, 'average': 20.96, 'std_dev': 3.54, 'anomaly_flag': False, 'processed_timestamp': 1746297857.0110762}
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65220), spawning handler thread
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65220)
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297857.0116951, "temperature": 24.54, "humidity": 64.87}'
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297857.0116951, 'temperature': 24.54, 'humidity': 64.87}
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297857.0116951, 'temperature': 24.54, 'humidity': 64.87, 'average': 21.96, 'std_dev': 3.69, 'anomaly_flag': False, 'processed_timestamp': 1746297857.012453}
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65221), spawning handler thread
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65221)
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297857.011702, "temperature": 18.46, "humidity": 38.72}'
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297857.011702, 'temperature': 18.46, 'humidity': 38.72}
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297857.011702, 'temperature': 18.46, 'humidity': 38.72, 'average': 21.49, 'std_dev': 3.95, 'anomaly_flag': False, 'processed_timestamp': 1746297857.012987}
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:17] [DroneTCPServer] [INFO] Forwarded payload to central server
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:17] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65224), spawning handler thread
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65224)
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S1", "timestamp": 1746297859.015189, "temperature": 22.54, "humidity": 44.98}'
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S1', 'timestamp': 1746297859.015189, 'temperature': 22.54, 'humidity': 44.98}
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S1', 'timestamp': 1746297859.015189, 'temperature': 22.54, 'humidity': 44.98, 'average': 22.95, 'std_dev': 2.44, 'anomaly_flag': False, 'processed_timestamp': 1746297859.01664}
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:19] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65226), spawning handler thread
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65226)
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Accepted connection from ('127.0.0.1', 65227), spawning handler thread
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S3", "timestamp": 1746297859.016735, "temperature": 25.75, "humidity": 63.87}'
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Yeni bağlantı: ('127.0.0.1', 65227)
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S3', 'timestamp': 1746297859.016735, 'temperature': 25.75, 'humidity': 63.87}
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Raw data received: b'{"sensor_id": "S2", "timestamp": 1746297859.016737, "temperature": 22.25, "humidity": 35.92}'
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S3', 'timestamp': 1746297859.016735, 'temperature': 25.75, 'humidity': 63.87, 'average': 23.01, 'std_dev': 2.5, 'anomaly_flag': False, 'processed_timestamp': 1746297859.017974}
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Gelen payload: {'sensor_id': 'S2', 'timestamp': 1746297859.016737, 'temperature': 22.25, 'humidity': 35.92}
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:19] [DroneTCPServer] [INFO] Processed payload: {'sensor_id': 'S2', 'timestamp': 1746297859.016737, 'temperature': 22.25, 'humidity': 35.92, 'average': 22.71, 'std_dev': 2.49, 'anomaly_flag': False, 'processed_timestamp': 1746297859.0182881}
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] Forwarding payload to central 127.0.0.1:10000
+[2025-05-03 21:44:19] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:44:19] [DroneTCPServer] [ERROR] Failed to forward to central server: [Errno 61] Connection refused
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] ACK gönderildi.
+[2025-05-03 21:44:19] [DroneTCPServer] [DEBUG] ACK gönderildi.

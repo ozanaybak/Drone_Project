@@ -2334,3 +2334,818 @@
 [2025-05-03 21:22:29] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746296549.2547698, 'temperature': 17.13, 'humidity': 45.18}
 [2025-05-03 21:22:29] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
 [2025-05-03 21:22:30] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:52] [SensorNode] [INFO] SensorNode S1 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:36:52] [SensorNode] [INFO] SensorNode S2 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:36:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297412.278558, 'temperature': 28.51, 'humidity': 33.86}
+[2025-05-03 21:36:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297412.2785652, 'temperature': 15.21, 'humidity': 48.02}
+[2025-05-03 21:36:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:36:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:36:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:36:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:36:57] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297417.294003, 'temperature': 29.61, 'humidity': 46.49}
+[2025-05-03 21:36:57] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:57] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297417.300237, 'temperature': 18.51, 'humidity': 30.26}
+[2025-05-03 21:36:57] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:58] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:58] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:59] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:36:59] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:00] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:00] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:00] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:00] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297422.313832, 'temperature': 17.05, 'humidity': 68.13}
+[2025-05-03 21:37:02] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297422.323252, 'temperature': 25.56, 'humidity': 69.35}
+[2025-05-03 21:37:02] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:03] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:03] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:04] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:04] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:05] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:05] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:05] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:05] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:07] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297427.330654, 'temperature': 26.47, 'humidity': 39.17}
+[2025-05-03 21:37:07] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:07] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297427.338494, 'temperature': 25.17, 'humidity': 39.19}
+[2025-05-03 21:37:07] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:08] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:08] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:09] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:09] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:10] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:10] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:10] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:10] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297432.350861, 'temperature': 20.25, 'humidity': 56.42}
+[2025-05-03 21:37:12] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297432.3546429, 'temperature': 22.06, 'humidity': 66.51}
+[2025-05-03 21:37:12] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:13] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:13] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:14] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:14] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:15] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:15] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:15] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:15] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297437.372521, 'temperature': 19.3, 'humidity': 52.01}
+[2025-05-03 21:37:17] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297437.373848, 'temperature': 22.24, 'humidity': 45.19}
+[2025-05-03 21:37:17] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:18] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:18] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:19] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:19] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:20] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:20] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:20] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:20] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:22] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297442.3877141, 'temperature': 28.66, 'humidity': 32.1}
+[2025-05-03 21:37:22] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:22] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297442.3885398, 'temperature': 22.98, 'humidity': 43.44}
+[2025-05-03 21:37:22] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:23] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:23] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:24] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:24] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:25] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:25] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:25] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:25] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:27] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297447.4051368, 'temperature': 28.32, 'humidity': 55.19}
+[2025-05-03 21:37:27] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:27] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297447.407276, 'temperature': 26.96, 'humidity': 46.72}
+[2025-05-03 21:37:27] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:28] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:28] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:29] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:29] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:30] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:30] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:30] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:30] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297452.4181252, 'temperature': 19.3, 'humidity': 36.6}
+[2025-05-03 21:37:32] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297452.4222322, 'temperature': 15.14, 'humidity': 37.16}
+[2025-05-03 21:37:32] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:33] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:33] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:34] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:34] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:35] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:35] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:35] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:35] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:37] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297457.432662, 'temperature': 25.55, 'humidity': 38.47}
+[2025-05-03 21:37:37] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:37] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297457.435012, 'temperature': 15.82, 'humidity': 48.01}
+[2025-05-03 21:37:37] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:38] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:38] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:39] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:39] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:40] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:40] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:40] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:40] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:42] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297462.4502442, 'temperature': 15.22, 'humidity': 46.54}
+[2025-05-03 21:37:42] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297462.4502451, 'temperature': 22.31, 'humidity': 52.58}
+[2025-05-03 21:37:42] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:42] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:43] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:43] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:44] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:44] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:45] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:45] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:45] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:45] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:47] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297467.470232, 'temperature': 25.67, 'humidity': 41.3}
+[2025-05-03 21:37:47] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297467.470232, 'temperature': 24.34, 'humidity': 62.01}
+[2025-05-03 21:37:47] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:47] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:48] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:48] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:49] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:49] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:50] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:50] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:50] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:50] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297472.4854069, 'temperature': 27.92, 'humidity': 38.74}
+[2025-05-03 21:37:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297472.49009, 'temperature': 24.13, 'humidity': 59.66}
+[2025-05-03 21:37:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:37:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:37:57] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297477.500267, 'temperature': 18.22, 'humidity': 61.49}
+[2025-05-03 21:37:57] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:57] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297477.514328, 'temperature': 25.77, 'humidity': 37.01}
+[2025-05-03 21:37:57] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:58] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:58] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:59] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:37:59] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:00] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:38:00] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:38:00] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:38:00] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:38:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297482.521136, 'temperature': 21.98, 'humidity': 48.55}
+[2025-05-03 21:38:02] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297482.529037, 'temperature': 17.19, 'humidity': 40.26}
+[2025-05-03 21:38:02] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:03] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:03] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:04] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:04] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:05] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:38:05] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:38:05] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:38:05] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:38:07] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297487.5395641, 'temperature': 27.84, 'humidity': 50.67}
+[2025-05-03 21:38:07] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:07] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297487.541882, 'temperature': 17.9, 'humidity': 33.46}
+[2025-05-03 21:38:07] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:08] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:08] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:09] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297489.559078}
+[2025-05-03 21:38:09] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:09] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297489.559181}
+[2025-05-03 21:38:09] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:11] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297491.564493, 'temperature': 27.29, 'humidity': 32.35}
+[2025-05-03 21:38:11] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297491.5647318, 'temperature': 28.96, 'humidity': 34.77}
+[2025-05-03 21:38:11] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297491.5702431}
+[2025-05-03 21:38:11] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:11] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297491.5703301}
+[2025-05-03 21:38:11] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:13] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297493.572041, 'temperature': 21.41, 'humidity': 37.76}
+[2025-05-03 21:38:13] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297493.5740101, 'temperature': 19.14, 'humidity': 54.67}
+[2025-05-03 21:38:13] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297493.574271}
+[2025-05-03 21:38:13] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:13] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297493.575413}
+[2025-05-03 21:38:13] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:15] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297495.5796459, 'temperature': 24.39, 'humidity': 52.99}
+[2025-05-03 21:38:15] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297495.580711, 'temperature': 20.98, 'humidity': 36.96}
+[2025-05-03 21:38:15] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297495.584001}
+[2025-05-03 21:38:15] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:15] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297495.5842612}
+[2025-05-03 21:38:15] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297497.584948, 'temperature': 29.64, 'humidity': 36.58}
+[2025-05-03 21:38:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297497.5851352, 'temperature': 22.01, 'humidity': 51.5}
+[2025-05-03 21:38:17] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297497.5882502}
+[2025-05-03 21:38:17] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:17] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297497.588361}
+[2025-05-03 21:38:17] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:18] [SensorNode] [INFO] SensorNode S1 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:38:18] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297498.0897012, 'temperature': 19.46, 'humidity': 31.15}
+[2025-05-03 21:38:18] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297498.091722}
+[2025-05-03 21:38:18] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:19] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297499.593548, 'temperature': 17.59, 'humidity': 62.81}
+[2025-05-03 21:38:19] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297499.593674, 'temperature': 19.56, 'humidity': 44.84}
+[2025-05-03 21:38:19] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297499.597619}
+[2025-05-03 21:38:19] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:19] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297499.597806}
+[2025-05-03 21:38:19] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297500.09691, 'temperature': 28.95, 'humidity': 65.82}
+[2025-05-03 21:38:20] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297500.0995781}
+[2025-05-03 21:38:20] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297501.600385, 'temperature': 26.08, 'humidity': 51.73}
+[2025-05-03 21:38:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297501.6019242, 'temperature': 15.82, 'humidity': 36.99}
+[2025-05-03 21:38:21] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297501.60386}
+[2025-05-03 21:38:21] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:21] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297501.6046169}
+[2025-05-03 21:38:21] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:22] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297502.105094, 'temperature': 20.98, 'humidity': 43.84}
+[2025-05-03 21:38:22] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297502.108609}
+[2025-05-03 21:38:22] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:23] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297503.606587, 'temperature': 19.99, 'humidity': 48.03}
+[2025-05-03 21:38:23] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297503.608715, 'temperature': 28.36, 'humidity': 34.59}
+[2025-05-03 21:38:23] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297503.6111722}
+[2025-05-03 21:38:23] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:23] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297503.6116722}
+[2025-05-03 21:38:23] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297504.114055, 'temperature': 15.9, 'humidity': 60.94}
+[2025-05-03 21:38:24] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297504.117424}
+[2025-05-03 21:38:24] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:25] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297505.612448, 'temperature': 23.87, 'humidity': 65.6}
+[2025-05-03 21:38:25] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297505.6153102}
+[2025-05-03 21:38:25] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:25] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297505.616624, 'temperature': 21.51, 'humidity': 63.82}
+[2025-05-03 21:38:25] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297505.619916}
+[2025-05-03 21:38:25] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:26] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297506.11811, 'temperature': 22.79, 'humidity': 52.2}
+[2025-05-03 21:38:26] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297506.120938}
+[2025-05-03 21:38:26] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:27] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297507.620686, 'temperature': 16.12, 'humidity': 68.92}
+[2025-05-03 21:38:27] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297507.621703, 'temperature': 21.16, 'humidity': 64.73}
+[2025-05-03 21:38:27] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297507.623261}
+[2025-05-03 21:38:27] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:27] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297507.623394}
+[2025-05-03 21:38:27] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297508.12554, 'temperature': 26.54, 'humidity': 46.4}
+[2025-05-03 21:38:28] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297508.127318}
+[2025-05-03 21:38:28] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:29] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297509.628528, 'temperature': 27.7, 'humidity': 52.82}
+[2025-05-03 21:38:29] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297509.628654, 'temperature': 17.86, 'humidity': 44.8}
+[2025-05-03 21:38:29] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297509.631192}
+[2025-05-03 21:38:29] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:29] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297509.631615}
+[2025-05-03 21:38:29] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:30] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297510.132616, 'temperature': 23.69, 'humidity': 59.56}
+[2025-05-03 21:38:30] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297510.136211}
+[2025-05-03 21:38:30] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:31] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297511.636554, 'temperature': 27.27, 'humidity': 40.78}
+[2025-05-03 21:38:31] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297511.6368809, 'temperature': 21.19, 'humidity': 69.65}
+[2025-05-03 21:38:31] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297511.641794}
+[2025-05-03 21:38:31] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297511.6419442}
+[2025-05-03 21:38:31] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:31] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297512.141716, 'temperature': 29.87, 'humidity': 53.85}
+[2025-05-03 21:38:32] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297512.1456819}
+[2025-05-03 21:38:32] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:33] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297513.645509, 'temperature': 29.89, 'humidity': 36.94}
+[2025-05-03 21:38:33] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297513.647564, 'temperature': 16.77, 'humidity': 57.8}
+[2025-05-03 21:38:33] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297513.6502988}
+[2025-05-03 21:38:33] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:33] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297513.650578}
+[2025-05-03 21:38:33] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:34] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297514.151057, 'temperature': 19.11, 'humidity': 34.37}
+[2025-05-03 21:38:34] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297514.1544142}
+[2025-05-03 21:38:34] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:35] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297515.6552691, 'temperature': 15.72, 'humidity': 44.65}
+[2025-05-03 21:38:35] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297515.6556501, 'temperature': 16.62, 'humidity': 50.59}
+[2025-05-03 21:38:35] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297515.659544}
+[2025-05-03 21:38:35] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:35] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297515.6597}
+[2025-05-03 21:38:35] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297516.158783, 'temperature': 27.5, 'humidity': 45.33}
+[2025-05-03 21:38:36] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297516.161269}
+[2025-05-03 21:38:36] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:37] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297517.6613162, 'temperature': 15.33, 'humidity': 64.95}
+[2025-05-03 21:38:37] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297517.661472, 'temperature': 16.13, 'humidity': 35.58}
+[2025-05-03 21:38:37] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297517.665024}
+[2025-05-03 21:38:37] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:37] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297517.6651561}
+[2025-05-03 21:38:37] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:38] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297518.166668, 'temperature': 18.26, 'humidity': 39.71}
+[2025-05-03 21:38:38] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297518.1699572}
+[2025-05-03 21:38:38] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:39] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297519.670363, 'temperature': 29.64, 'humidity': 66.57}
+[2025-05-03 21:38:39] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297519.67046, 'temperature': 18.51, 'humidity': 69.64}
+[2025-05-03 21:38:39] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297519.672251}
+[2025-05-03 21:38:39] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:39] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297519.6723342}
+[2025-05-03 21:38:39] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297520.17534, 'temperature': 15.36, 'humidity': 56.3}
+[2025-05-03 21:38:40] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297520.1782022}
+[2025-05-03 21:38:40] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:41] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297521.677513, 'temperature': 26.35, 'humidity': 61.7}
+[2025-05-03 21:38:41] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297521.6774132, 'temperature': 23.6, 'humidity': 54.86}
+[2025-05-03 21:38:41] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297521.6826298}
+[2025-05-03 21:38:41] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297521.6827688}
+[2025-05-03 21:38:41] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:41] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:42] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297522.181102, 'temperature': 20.5, 'humidity': 39.27}
+[2025-05-03 21:38:42] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297522.182558}
+[2025-05-03 21:38:42] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:43] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297523.6835032, 'temperature': 22.21, 'humidity': 61.0}
+[2025-05-03 21:38:43] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297523.6835048, 'temperature': 28.0, 'humidity': 68.12}
+[2025-05-03 21:38:43] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297523.685505}
+[2025-05-03 21:38:43] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:43] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297523.6856902}
+[2025-05-03 21:38:43] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297524.185848, 'temperature': 25.82, 'humidity': 50.18}
+[2025-05-03 21:38:44] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297524.18742}
+[2025-05-03 21:38:44] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:45] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297525.6907961, 'temperature': 17.13, 'humidity': 49.83}
+[2025-05-03 21:38:45] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297525.690889, 'temperature': 22.96, 'humidity': 41.87}
+[2025-05-03 21:38:45] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297525.692797}
+[2025-05-03 21:38:45] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:45] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297525.6929011}
+[2025-05-03 21:38:45] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:46] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297526.192682, 'temperature': 17.52, 'humidity': 36.54}
+[2025-05-03 21:38:46] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297526.194609}
+[2025-05-03 21:38:46] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:47] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297527.6938298, 'temperature': 28.4, 'humidity': 68.55}
+[2025-05-03 21:38:47] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297527.694093, 'temperature': 24.91, 'humidity': 58.01}
+[2025-05-03 21:38:47] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297527.696358}
+[2025-05-03 21:38:47] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:47] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297527.696641}
+[2025-05-03 21:38:47] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297528.1999428, 'temperature': 24.49, 'humidity': 48.72}
+[2025-05-03 21:38:48] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297528.203253}
+[2025-05-03 21:38:48] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:49] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297529.701751, 'temperature': 26.53, 'humidity': 32.08}
+[2025-05-03 21:38:49] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297529.701749, 'temperature': 27.7, 'humidity': 66.92}
+[2025-05-03 21:38:49] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297529.7037299}
+[2025-05-03 21:38:49] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297529.7037802}
+[2025-05-03 21:38:49] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:49] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:50] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297530.208549, 'temperature': 29.21, 'humidity': 51.37}
+[2025-05-03 21:38:50] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297530.210717}
+[2025-05-03 21:38:50] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:51] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297531.707849, 'temperature': 22.5, 'humidity': 57.59}
+[2025-05-03 21:38:51] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297531.708918, 'temperature': 24.87, 'humidity': 56.64}
+[2025-05-03 21:38:51] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297531.7118561}
+[2025-05-03 21:38:51] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:51] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297531.7119858}
+[2025-05-03 21:38:51] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297532.2160761, 'temperature': 27.35, 'humidity': 54.36}
+[2025-05-03 21:38:52] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297532.2202592}
+[2025-05-03 21:38:52] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:53] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297533.7125509, 'temperature': 21.86, 'humidity': 40.52}
+[2025-05-03 21:38:53] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297533.715072}
+[2025-05-03 21:38:53] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:53] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297533.717341, 'temperature': 15.49, 'humidity': 50.9}
+[2025-05-03 21:38:53] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297533.7190132}
+[2025-05-03 21:38:53] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:54] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297534.221586, 'temperature': 26.31, 'humidity': 48.15}
+[2025-05-03 21:38:54] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297534.224446}
+[2025-05-03 21:38:54] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:38:55] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297535.717865, 'temperature': 25.11, 'humidity': 60.91}
+[2025-05-03 21:38:55] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:55] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297535.724339, 'temperature': 24.4, 'humidity': 64.62}
+[2025-05-03 21:38:55] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297536.229583, 'temperature': 16.95, 'humidity': 35.51}
+[2025-05-03 21:38:56] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:56] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:56] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:57] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:57] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:38:58] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:38:58] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:38:58] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:38:58] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:39:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297540.736201, 'temperature': 28.86, 'humidity': 62.72}
+[2025-05-03 21:39:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297540.7361841, 'temperature': 26.48, 'humidity': 67.74}
+[2025-05-03 21:39:00] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:00] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:01] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:01] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:02] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:02] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:03] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:39:03] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:39:03] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:39:03] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:39:05] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297545.751561, 'temperature': 22.74, 'humidity': 69.78}
+[2025-05-03 21:39:05] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:05] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297545.7567701, 'temperature': 25.13, 'humidity': 31.53}
+[2025-05-03 21:39:05] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:06] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:06] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:07] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:07] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:08] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:39:08] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:39:08] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:39:08] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:39:10] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297550.773616, 'temperature': 24.51, 'humidity': 68.27}
+[2025-05-03 21:39:10] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297550.7735412, 'temperature': 18.6, 'humidity': 33.14}
+[2025-05-03 21:39:10] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:10] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:11] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:39:11] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:21] [SensorNode] [INFO] SensorNode S2 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:40:21] [SensorNode] [INFO] SensorNode S1 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:40:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297621.808589, 'temperature': 19.15, 'humidity': 32.08}
+[2025-05-03 21:40:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297621.808595, 'temperature': 29.45, 'humidity': 47.96}
+[2025-05-03 21:40:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:23] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:23] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:24] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:24] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:24] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:24] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:26] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297626.832587, 'temperature': 19.96, 'humidity': 30.69}
+[2025-05-03 21:40:26] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297626.833179, 'temperature': 18.81, 'humidity': 60.78}
+[2025-05-03 21:40:26] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:26] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:27] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:27] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:28] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:28] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:29] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:29] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:29] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:29] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:31] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297631.848576, 'temperature': 16.45, 'humidity': 62.74}
+[2025-05-03 21:40:31] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:31] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297631.854275, 'temperature': 23.5, 'humidity': 56.47}
+[2025-05-03 21:40:31] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:32] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:32] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:33] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:33] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:34] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:34] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:34] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:34] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297636.861022, 'temperature': 24.21, 'humidity': 48.01}
+[2025-05-03 21:40:36] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297636.874243, 'temperature': 27.66, 'humidity': 46.05}
+[2025-05-03 21:40:36] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:37] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:37] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:38] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:38] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:39] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:39] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:39] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:39] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:41] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297641.8755689, 'temperature': 23.04, 'humidity': 41.78}
+[2025-05-03 21:40:41] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:41] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297641.894123, 'temperature': 25.71, 'humidity': 40.23}
+[2025-05-03 21:40:41] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:42] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:42] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:43] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:43] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:40:44] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:44] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:40:44] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:40:44] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:08] [SensorNode] [INFO] SensorNode S1 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:43:08] [SensorNode] [INFO] SensorNode S3 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:43:08] [SensorNode] [INFO] SensorNode S2 starting. Sending to 127.0.0.1:9000
+[2025-05-03 21:43:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297788.731771, 'temperature': 29.78, 'humidity': 67.69}
+[2025-05-03 21:43:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297788.731766, 'temperature': 17.66, 'humidity': 65.31}
+[2025-05-03 21:43:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297788.731777, 'temperature': 29.13, 'humidity': 57.97}
+[2025-05-03 21:43:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:10] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:10] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:10] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:43:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:43:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:43:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:13] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297793.755049, 'temperature': 20.65, 'humidity': 63.64}
+[2025-05-03 21:43:13] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297793.755096, 'temperature': 27.44, 'humidity': 50.0}
+[2025-05-03 21:43:13] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:13] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:13] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297793.756394, 'temperature': 24.37, 'humidity': 63.33}
+[2025-05-03 21:43:13] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:14] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:14] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:14] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:15] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:15] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:15] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:43:16] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:43:16] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:16] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:43:16] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:16] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-03 21:43:16] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-03 21:43:18] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297798.7731771, 'temperature': 26.23, 'humidity': 48.08}
+[2025-05-03 21:43:18] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297798.774734, 'temperature': 18.66, 'humidity': 44.45}
+[2025-05-03 21:43:18] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297798.774732, 'temperature': 26.29, 'humidity': 34.88}
+[2025-05-03 21:43:18] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297798.784069}
+[2025-05-03 21:43:18] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:18] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297798.7845492}
+[2025-05-03 21:43:18] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:18] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297798.784726}
+[2025-05-03 21:43:18] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297800.7879071, 'temperature': 26.86, 'humidity': 46.8}
+[2025-05-03 21:43:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297800.788363, 'temperature': 16.05, 'humidity': 40.94}
+[2025-05-03 21:43:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297800.789888, 'temperature': 17.49, 'humidity': 69.69}
+[2025-05-03 21:43:20] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297800.796462}
+[2025-05-03 21:43:20] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:20] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297800.796849}
+[2025-05-03 21:43:20] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:20] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297800.797699}
+[2025-05-03 21:43:20] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:22] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297802.7992609, 'temperature': 15.88, 'humidity': 55.0}
+[2025-05-03 21:43:22] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297802.80283, 'temperature': 26.59, 'humidity': 41.86}
+[2025-05-03 21:43:22] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297802.8028271, 'temperature': 28.41, 'humidity': 67.42}
+[2025-05-03 21:43:22] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297802.802884}
+[2025-05-03 21:43:22] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:22] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297802.806138}
+[2025-05-03 21:43:22] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297802.8061829}
+[2025-05-03 21:43:22] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:22] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297804.806446, 'temperature': 17.47, 'humidity': 42.57}
+[2025-05-03 21:43:24] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297804.808098}
+[2025-05-03 21:43:24] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297804.808736, 'temperature': 29.08, 'humidity': 45.34}
+[2025-05-03 21:43:24] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297804.809572}
+[2025-05-03 21:43:24] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297804.8122828, 'temperature': 15.28, 'humidity': 32.61}
+[2025-05-03 21:43:24] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297804.813279}
+[2025-05-03 21:43:24] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:26] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297806.813399, 'temperature': 27.87, 'humidity': 52.45}
+[2025-05-03 21:43:26] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297806.8147762, 'temperature': 26.54, 'humidity': 54.9}
+[2025-05-03 21:43:26] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297806.818403}
+[2025-05-03 21:43:26] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297806.818557, 'temperature': 27.2, 'humidity': 68.81}
+[2025-05-03 21:43:26] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297806.818583}
+[2025-05-03 21:43:26] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:26] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:26] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297806.8207512}
+[2025-05-03 21:43:26] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297808.819385, 'temperature': 24.61, 'humidity': 36.21}
+[2025-05-03 21:43:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297808.821097, 'temperature': 27.16, 'humidity': 62.31}
+[2025-05-03 21:43:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297808.82136, 'temperature': 17.02, 'humidity': 58.96}
+[2025-05-03 21:43:28] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297808.8216121}
+[2025-05-03 21:43:28] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:28] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297808.823797}
+[2025-05-03 21:43:28] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:28] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297808.824065}
+[2025-05-03 21:43:28] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:30] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297810.825553, 'temperature': 24.84, 'humidity': 46.51}
+[2025-05-03 21:43:30] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297810.825554, 'temperature': 22.19, 'humidity': 58.45}
+[2025-05-03 21:43:30] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297810.827552, 'temperature': 19.87, 'humidity': 55.07}
+[2025-05-03 21:43:30] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297810.830385}
+[2025-05-03 21:43:30] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:30] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297810.830783}
+[2025-05-03 21:43:30] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297810.83081}
+[2025-05-03 21:43:30] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:30] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297812.831527, 'temperature': 18.24, 'humidity': 52.29}
+[2025-05-03 21:43:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297812.834313, 'temperature': 27.1, 'humidity': 67.53}
+[2025-05-03 21:43:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297812.835755, 'temperature': 20.51, 'humidity': 63.45}
+[2025-05-03 21:43:32] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297812.836653}
+[2025-05-03 21:43:32] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:32] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297812.8379982}
+[2025-05-03 21:43:32] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:32] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297812.838722}
+[2025-05-03 21:43:32] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:34] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297814.8421278, 'temperature': 22.92, 'humidity': 39.95}
+[2025-05-03 21:43:34] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297814.843483, 'temperature': 15.5, 'humidity': 61.23}
+[2025-05-03 21:43:34] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297814.843486, 'temperature': 16.41, 'humidity': 47.6}
+[2025-05-03 21:43:34] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297814.843476}
+[2025-05-03 21:43:34] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:34] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297814.844773}
+[2025-05-03 21:43:34] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:34] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297814.844787}
+[2025-05-03 21:43:34] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297816.848804, 'temperature': 17.79, 'humidity': 56.91}
+[2025-05-03 21:43:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297816.849947, 'temperature': 23.99, 'humidity': 54.63}
+[2025-05-03 21:43:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297816.850028, 'temperature': 17.05, 'humidity': 55.59}
+[2025-05-03 21:43:36] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297816.853756}
+[2025-05-03 21:43:36] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:36] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297816.853854}
+[2025-05-03 21:43:36] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:36] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297816.853968}
+[2025-05-03 21:43:36] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:38] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297818.8581069, 'temperature': 18.44, 'humidity': 61.72}
+[2025-05-03 21:43:38] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297818.8581078, 'temperature': 27.0, 'humidity': 42.82}
+[2025-05-03 21:43:38] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297818.8591628, 'temperature': 23.79, 'humidity': 60.06}
+[2025-05-03 21:43:38] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297818.860043}
+[2025-05-03 21:43:38] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:38] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297818.8601851}
+[2025-05-03 21:43:38] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:38] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297818.860786}
+[2025-05-03 21:43:38] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297820.8652859, 'temperature': 28.13, 'humidity': 53.05}
+[2025-05-03 21:43:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297820.865713, 'temperature': 22.49, 'humidity': 38.79}
+[2025-05-03 21:43:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297820.86539, 'temperature': 22.78, 'humidity': 57.29}
+[2025-05-03 21:43:40] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297820.870672}
+[2025-05-03 21:43:40] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:40] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297820.871163}
+[2025-05-03 21:43:40] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:40] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297820.872263}
+[2025-05-03 21:43:40] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:42] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297822.8735628, 'temperature': 18.39, 'humidity': 63.08}
+[2025-05-03 21:43:42] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297822.874597, 'temperature': 17.01, 'humidity': 50.31}
+[2025-05-03 21:43:42] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297822.8750138, 'temperature': 17.06, 'humidity': 37.38}
+[2025-05-03 21:43:42] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297822.876846}
+[2025-05-03 21:43:42] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:42] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297822.877633}
+[2025-05-03 21:43:42] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:42] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297822.878005}
+[2025-05-03 21:43:42] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297824.881362, 'temperature': 19.75, 'humidity': 54.32}
+[2025-05-03 21:43:44] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297824.8828092}
+[2025-05-03 21:43:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297824.8829231, 'temperature': 23.21, 'humidity': 60.18}
+[2025-05-03 21:43:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297824.882926, 'temperature': 26.79, 'humidity': 57.15}
+[2025-05-03 21:43:44] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:44] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297824.884647}
+[2025-05-03 21:43:44] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:44] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297824.8845298}
+[2025-05-03 21:43:44] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:46] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297826.888183, 'temperature': 16.63, 'humidity': 62.57}
+[2025-05-03 21:43:46] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297826.889858, 'temperature': 24.8, 'humidity': 45.74}
+[2025-05-03 21:43:46] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297826.889934, 'temperature': 18.09, 'humidity': 43.2}
+[2025-05-03 21:43:46] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297826.8942552}
+[2025-05-03 21:43:46] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297826.894227}
+[2025-05-03 21:43:46] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:46] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:46] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297826.895798}
+[2025-05-03 21:43:46] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297828.899831, 'temperature': 15.47, 'humidity': 30.55}
+[2025-05-03 21:43:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297828.899831, 'temperature': 19.36, 'humidity': 42.78}
+[2025-05-03 21:43:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297828.899831, 'temperature': 27.73, 'humidity': 38.45}
+[2025-05-03 21:43:48] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297828.902066}
+[2025-05-03 21:43:48] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:48] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297828.902366}
+[2025-05-03 21:43:48] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297828.902389}
+[2025-05-03 21:43:48] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:48] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:50] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297830.9071949, 'temperature': 16.05, 'humidity': 35.56}
+[2025-05-03 21:43:50] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297830.907532, 'temperature': 25.18, 'humidity': 57.4}
+[2025-05-03 21:43:50] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297830.907516, 'temperature': 16.12, 'humidity': 42.35}
+[2025-05-03 21:43:50] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297830.9097972}
+[2025-05-03 21:43:50] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:50] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297830.9104362}
+[2025-05-03 21:43:50] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:50] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297830.910717}
+[2025-05-03 21:43:50] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297832.912874, 'temperature': 21.39, 'humidity': 57.99}
+[2025-05-03 21:43:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297832.912874, 'temperature': 21.01, 'humidity': 35.49}
+[2025-05-03 21:43:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297832.915614, 'temperature': 24.03, 'humidity': 37.89}
+[2025-05-03 21:43:52] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297832.9193869}
+[2025-05-03 21:43:52] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:52] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297832.919932}
+[2025-05-03 21:43:52] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:52] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297832.9205608}
+[2025-05-03 21:43:52] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:54] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297834.9243379, 'temperature': 27.58, 'humidity': 64.98}
+[2025-05-03 21:43:54] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297834.924727, 'temperature': 27.51, 'humidity': 40.13}
+[2025-05-03 21:43:54] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297834.926193, 'temperature': 28.69, 'humidity': 38.53}
+[2025-05-03 21:43:54] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297834.927121}
+[2025-05-03 21:43:54] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:54] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297834.927406}
+[2025-05-03 21:43:54] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:54] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297834.928261}
+[2025-05-03 21:43:54] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297836.932673, 'temperature': 17.15, 'humidity': 55.76}
+[2025-05-03 21:43:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297836.932408, 'temperature': 20.53, 'humidity': 31.74}
+[2025-05-03 21:43:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297836.933475, 'temperature': 17.94, 'humidity': 46.04}
+[2025-05-03 21:43:56] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297836.938148}
+[2025-05-03 21:43:56] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:56] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297836.938667}
+[2025-05-03 21:43:56] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:56] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297836.939052}
+[2025-05-03 21:43:56] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:58] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297838.94119, 'temperature': 19.12, 'humidity': 40.23}
+[2025-05-03 21:43:58] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297838.9424}
+[2025-05-03 21:43:58] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:58] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297838.942692, 'temperature': 22.0, 'humidity': 39.25}
+[2025-05-03 21:43:58] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297838.942729, 'temperature': 15.06, 'humidity': 69.89}
+[2025-05-03 21:43:58] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297838.9441311}
+[2025-05-03 21:43:58] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:43:58] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297838.944383}
+[2025-05-03 21:43:58] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297840.947768, 'temperature': 20.13, 'humidity': 60.35}
+[2025-05-03 21:44:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297840.949326, 'temperature': 28.85, 'humidity': 42.07}
+[2025-05-03 21:44:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297840.949566, 'temperature': 22.72, 'humidity': 56.51}
+[2025-05-03 21:44:00] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297840.9521978}
+[2025-05-03 21:44:00] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:00] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297840.953391}
+[2025-05-03 21:44:00] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:00] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297840.954132}
+[2025-05-03 21:44:00] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297842.956213, 'temperature': 19.3, 'humidity': 65.89}
+[2025-05-03 21:44:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297842.9574049, 'temperature': 20.77, 'humidity': 63.87}
+[2025-05-03 21:44:02] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297842.957519, 'temperature': 24.9, 'humidity': 53.99}
+[2025-05-03 21:44:02] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297842.962271}
+[2025-05-03 21:44:02] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:02] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297842.962423}
+[2025-05-03 21:44:02] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297842.962763}
+[2025-05-03 21:44:02] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:02] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297844.9656398, 'temperature': 15.48, 'humidity': 60.72}
+[2025-05-03 21:44:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297844.96658, 'temperature': 21.42, 'humidity': 44.07}
+[2025-05-03 21:44:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297844.9675221, 'temperature': 18.45, 'humidity': 50.35}
+[2025-05-03 21:44:04] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297844.969048}
+[2025-05-03 21:44:04] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:04] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297844.9699662}
+[2025-05-03 21:44:04] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:04] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297844.970486}
+[2025-05-03 21:44:04] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:06] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297846.971623, 'temperature': 26.28, 'humidity': 40.58}
+[2025-05-03 21:44:06] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297846.971622, 'temperature': 24.92, 'humidity': 56.38}
+[2025-05-03 21:44:06] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297846.973399}
+[2025-05-03 21:44:06] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297846.9733891}
+[2025-05-03 21:44:06] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:06] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:06] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297846.975738, 'temperature': 22.31, 'humidity': 66.02}
+[2025-05-03 21:44:06] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297846.976923}
+[2025-05-03 21:44:06] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297848.978622, 'temperature': 16.54, 'humidity': 44.42}
+[2025-05-03 21:44:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297848.978677, 'temperature': 19.28, 'humidity': 45.49}
+[2025-05-03 21:44:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297848.9789162, 'temperature': 15.76, 'humidity': 52.34}
+[2025-05-03 21:44:08] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297848.9814332}
+[2025-05-03 21:44:08] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:08] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297848.9818208}
+[2025-05-03 21:44:08] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:08] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297848.982112}
+[2025-05-03 21:44:08] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:10] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297850.9867039, 'temperature': 29.43, 'humidity': 36.09}
+[2025-05-03 21:44:10] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297850.9867039, 'temperature': 29.5, 'humidity': 55.07}
+[2025-05-03 21:44:10] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297850.98704, 'temperature': 16.61, 'humidity': 38.57}
+[2025-05-03 21:44:10] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297850.992617}
+[2025-05-03 21:44:10] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:10] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297850.992807}
+[2025-05-03 21:44:10] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:10] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297850.99369}
+[2025-05-03 21:44:10] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297852.995262, 'temperature': 24.79, 'humidity': 56.89}
+[2025-05-03 21:44:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297852.996615, 'temperature': 18.59, 'humidity': 50.46}
+[2025-05-03 21:44:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297852.9968462, 'temperature': 19.52, 'humidity': 30.95}
+[2025-05-03 21:44:13] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297853.000741}
+[2025-05-03 21:44:13] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:13] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297853.001002}
+[2025-05-03 21:44:13] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:13] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297853.001365}
+[2025-05-03 21:44:13] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:15] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297855.0017312, 'temperature': 20.81, 'humidity': 46.59}
+[2025-05-03 21:44:15] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297855.0022762, 'temperature': 15.26, 'humidity': 39.3}
+[2025-05-03 21:44:15] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297855.004181, 'temperature': 25.45, 'humidity': 40.69}
+[2025-05-03 21:44:15] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297855.006392}
+[2025-05-03 21:44:15] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:15] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297855.007489}
+[2025-05-03 21:44:15] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:15] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297855.0080771}
+[2025-05-03 21:44:15] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297857.009774, 'temperature': 23.75, 'humidity': 45.29}
+[2025-05-03 21:44:17] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297857.011456}
+[2025-05-03 21:44:17] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297857.0116951, 'temperature': 24.54, 'humidity': 64.87}
+[2025-05-03 21:44:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297857.011702, 'temperature': 18.46, 'humidity': 38.72}
+[2025-05-03 21:44:17] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297857.0133219}
+[2025-05-03 21:44:17] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:17] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297857.0134661}
+[2025-05-03 21:44:17] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:19] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297859.015189, 'temperature': 22.54, 'humidity': 44.98}
+[2025-05-03 21:44:19] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297859.016735, 'temperature': 25.75, 'humidity': 63.87}
+[2025-05-03 21:44:19] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297859.016737, 'temperature': 22.25, 'humidity': 35.92}
+[2025-05-03 21:44:19] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297859.016989}
+[2025-05-03 21:44:19] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:19] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297859.018553}
+[2025-05-03 21:44:19] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:19] [SensorNode] [INFO] Received ACK from Drone: {"status": "ACK", "received_timestamp": 1746297859.018691}
+[2025-05-03 21:44:19] [SensorNode] [INFO] Payload sent successfully
+[2025-05-03 21:44:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S1', 'timestamp': 1746297861.0223308, 'temperature': 20.46, 'humidity': 59.89}
+[2025-05-03 21:44:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:44:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S3', 'timestamp': 1746297861.023773, 'temperature': 24.51, 'humidity': 35.71}
+[2025-05-03 21:44:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': 1746297861.023942, 'temperature': 19.38, 'humidity': 38.5}
+[2025-05-03 21:44:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:44:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:44:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:44:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-03 21:44:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
