@@ -7,17 +7,28 @@ import time
 from src.common.logging_setup import get_logger
 from src.drone.edge_processing import EdgeProcessor
 from src.drone.battery_monitor import BatteryMonitor
-from queue import Queue
-from tkinter import IntVar
-from src.drone.gui import DroneGUI
+
+# Optional GUI support; only enabled if tkinter is available
+GUI_AVAILABLE = False
+try:
+    from queue import Queue
+    import tkinter as tk
+    from tkinter import IntVar
+    from src.drone.gui import DroneGUI
+    GUI_AVAILABLE = True
+except ImportError:
+    pass
 
 logger = get_logger('DroneTCPServer')
 
-# GUI setup
-data_queue = Queue()
-battery_var = IntVar()
-gui_thread = DroneGUI(data_queue, battery_var)
-gui_thread.start()
+# GUI setup (optional)
+if GUI_AVAILABLE:
+    data_queue = Queue()
+    battery_var = IntVar()
+    gui_thread = DroneGUI(data_queue, battery_var)
+    gui_thread.start()
+else:
+    logger.warning("Tkinter not available; GUI disabled")
 
 # Bu örnekler main() içinde başlatılacak
 processor: EdgeProcessor = None
@@ -66,11 +77,12 @@ def handle_client(conn, addr, server_host, server_port):
         forward_to_central(processed, server_host, server_port)
 
         # Send data to GUI
-        try:
-            data_queue.put((payload, processed))
-            battery_var.set(battery_monitor.level)
-        except Exception as e:
-            logger.error(f"Failed to update GUI: {e}")
+        if GUI_AVAILABLE:
+            try:
+                data_queue.put((payload, processed))
+                battery_var.set(battery_monitor.level)
+            except Exception as e:
+                logger.error(f"Failed to update GUI: {e}")
 
         # 3) Sensor’a ACK
         ack = {"status": "ACK", "received_timestamp": time.time()}

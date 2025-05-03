@@ -6,3 +6,27 @@
 [2025-05-03 20:25:17] [BatteryMonitor] [DEBUG] Battery level: 95%
 [2025-05-03 20:25:20] [BatteryMonitor] [DEBUG] Battery level: 94%
 [2025-05-03 20:25:23] [BatteryMonitor] [DEBUG] Battery level: 93%
+[2025-05-03 21:21:17] [BatteryMonitor] [INFO] BatteryMonitor started: level=100%, drain_rate=1% per 3.0 seconds
+[2025-05-03 21:21:20] [BatteryMonitor] [DEBUG] Battery level: 99%
+[2025-05-03 21:21:23] [BatteryMonitor] [DEBUG] Battery level: 98%
+[2025-05-03 21:21:26] [BatteryMonitor] [DEBUG] Battery level: 97%
+[2025-05-03 21:21:29] [BatteryMonitor] [DEBUG] Battery level: 96%
+[2025-05-03 21:21:32] [BatteryMonitor] [DEBUG] Battery level: 95%
+[2025-05-03 21:21:35] [BatteryMonitor] [DEBUG] Battery level: 94%
+[2025-05-03 21:21:38] [BatteryMonitor] [DEBUG] Battery level: 93%
+[2025-05-03 21:21:41] [BatteryMonitor] [DEBUG] Battery level: 92%
+[2025-05-03 21:21:44] [BatteryMonitor] [DEBUG] Battery level: 91%
+[2025-05-03 21:21:47] [BatteryMonitor] [DEBUG] Battery level: 90%
+[2025-05-03 21:21:50] [BatteryMonitor] [DEBUG] Battery level: 89%
+[2025-05-03 21:21:53] [BatteryMonitor] [DEBUG] Battery level: 88%
+[2025-05-03 21:21:56] [BatteryMonitor] [DEBUG] Battery level: 87%
+[2025-05-03 21:21:59] [BatteryMonitor] [DEBUG] Battery level: 86%
+[2025-05-03 21:22:02] [BatteryMonitor] [DEBUG] Battery level: 85%
+[2025-05-03 21:22:05] [BatteryMonitor] [DEBUG] Battery level: 84%
+[2025-05-03 21:22:08] [BatteryMonitor] [DEBUG] Battery level: 83%
+[2025-05-03 21:22:11] [BatteryMonitor] [DEBUG] Battery level: 82%
+[2025-05-03 21:22:14] [BatteryMonitor] [DEBUG] Battery level: 81%
+[2025-05-03 21:22:17] [BatteryMonitor] [DEBUG] Battery level: 80%
+[2025-05-03 21:22:20] [BatteryMonitor] [DEBUG] Battery level: 79%
+[2025-05-03 21:22:23] [BatteryMonitor] [DEBUG] Battery level: 78%
+[2025-05-03 21:22:26] [BatteryMonitor] [DEBUG] Battery level: 77%

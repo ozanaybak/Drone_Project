@@ -50,3 +50,164 @@
 [2025-05-03 20:29:04] [CentralServer] [INFO] Starting dashboard thread
 [2025-05-03 20:29:04] [CentralServer] [INFO] Starting TCP server for drone data
 [2025-05-03 20:29:04] [CentralServer] [INFO] CentralServer listening on 127.0.0.1:10000
+[2025-05-03 21:20:59] [CentralServer] [INFO] Loaded config from config/server_config.yaml
+[2025-05-03 21:20:59] [CentralServer] [DEBUG] Central server host: 127.0.0.1
+[2025-05-03 21:20:59] [CentralServer] [DEBUG] Central server port: 10000
+[2025-05-03 21:20:59] [CentralServer] [INFO] Starting dashboard thread
+[2025-05-03 21:20:59] [CentralServer] [INFO] Starting TCP server for drone data
+[2025-05-03 21:20:59] [CentralServer] [INFO] CentralServer listening on 127.0.0.1:10000
+[2025-05-03 21:21:25] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63982), spawning handler thread
+[2025-05-03 21:21:25] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63982)
+[2025-05-03 21:21:25] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:25] [CentralServer] [DEBUG] Raw data received (190 bytes): b'{"sensor_id": "S1", "timestamp": 1746296485.01114, "temperature": 23.78, "humidity": 53.9, "average": 23.78, "std_dev": 0.0, "anomaly_flag": false, "processed_timestamp": 1746296485.0194712}'
+[2025-05-03 21:21:25] [CentralServer] [INFO] Buffered payload (size=1): {'sensor_id': 'S1', 'timestamp': 1746296485.01114, 'temperature': 23.78, 'humidity': 53.9, 'average': 23.78, 'std_dev': 0.0, 'anomaly_flag': False, 'processed_timestamp': 1746296485.0194712}
+[2025-05-03 21:21:27] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63985), spawning handler thread
+[2025-05-03 21:21:27] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63985)
+[2025-05-03 21:21:27] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:27] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296487.026159, "temperature": 15.69, "humidity": 67.9, "average": 19.73, "std_dev": 4.05, "anomaly_flag": false, "processed_timestamp": 1746296487.029192}'
+[2025-05-03 21:21:27] [CentralServer] [INFO] Buffered payload (size=2): {'sensor_id': 'S1', 'timestamp': 1746296487.026159, 'temperature': 15.69, 'humidity': 67.9, 'average': 19.73, 'std_dev': 4.05, 'anomaly_flag': False, 'processed_timestamp': 1746296487.029192}
+[2025-05-03 21:21:29] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63987), spawning handler thread
+[2025-05-03 21:21:29] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63987)
+[2025-05-03 21:21:29] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:29] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296489.0344908, "temperature": 22.05, "humidity": 36.63, "average": 20.51, "std_dev": 3.48, "anomaly_flag": false, "processed_timestamp": 1746296489.037281}'
+[2025-05-03 21:21:29] [CentralServer] [INFO] Buffered payload (size=3): {'sensor_id': 'S1', 'timestamp': 1746296489.0344908, 'temperature': 22.05, 'humidity': 36.63, 'average': 20.51, 'std_dev': 3.48, 'anomaly_flag': False, 'processed_timestamp': 1746296489.037281}
+[2025-05-03 21:21:31] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63989), spawning handler thread
+[2025-05-03 21:21:31] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63989)
+[2025-05-03 21:21:31] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:31] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296491.043154, "temperature": 22.72, "humidity": 32.8, "average": 21.06, "std_dev": 3.16, "anomaly_flag": false, "processed_timestamp": 1746296491.045501}'
+[2025-05-03 21:21:31] [CentralServer] [INFO] Buffered payload (size=4): {'sensor_id': 'S1', 'timestamp': 1746296491.043154, 'temperature': 22.72, 'humidity': 32.8, 'average': 21.06, 'std_dev': 3.16, 'anomaly_flag': False, 'processed_timestamp': 1746296491.045501}
+[2025-05-03 21:21:33] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63991), spawning handler thread
+[2025-05-03 21:21:33] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63991)
+[2025-05-03 21:21:33] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:33] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296493.048825, "temperature": 16.98, "humidity": 61.71, "average": 20.24, "std_dev": 3.26, "anomaly_flag": false, "processed_timestamp": 1746296493.050878}'
+[2025-05-03 21:21:33] [CentralServer] [INFO] Buffered payload (size=5): {'sensor_id': 'S1', 'timestamp': 1746296493.048825, 'temperature': 16.98, 'humidity': 61.71, 'average': 20.24, 'std_dev': 3.26, 'anomaly_flag': False, 'processed_timestamp': 1746296493.050878}
+[2025-05-03 21:21:35] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63993), spawning handler thread
+[2025-05-03 21:21:35] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63993)
+[2025-05-03 21:21:35] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:35] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296495.056912, "temperature": 22.66, "humidity": 68.32, "average": 20.02, "std_dev": 3.05, "anomaly_flag": false, "processed_timestamp": 1746296495.0600052}'
+[2025-05-03 21:21:35] [CentralServer] [INFO] Buffered payload (size=6): {'sensor_id': 'S1', 'timestamp': 1746296495.056912, 'temperature': 22.66, 'humidity': 68.32, 'average': 20.02, 'std_dev': 3.05, 'anomaly_flag': False, 'processed_timestamp': 1746296495.0600052}
+[2025-05-03 21:21:37] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63995), spawning handler thread
+[2025-05-03 21:21:37] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63995)
+[2025-05-03 21:21:37] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:37] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296497.0626628, "temperature": 20.08, "humidity": 44.68, "average": 20.9, "std_dev": 2.18, "anomaly_flag": false, "processed_timestamp": 1746296497.064506}'
+[2025-05-03 21:21:37] [CentralServer] [INFO] Buffered payload (size=7): {'sensor_id': 'S1', 'timestamp': 1746296497.0626628, 'temperature': 20.08, 'humidity': 44.68, 'average': 20.9, 'std_dev': 2.18, 'anomaly_flag': False, 'processed_timestamp': 1746296497.064506}
+[2025-05-03 21:21:39] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63997), spawning handler thread
+[2025-05-03 21:21:39] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63997)
+[2025-05-03 21:21:39] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:39] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296499.070257, "temperature": 21.6, "humidity": 40.46, "average": 20.81, "std_dev": 2.14, "anomaly_flag": false, "processed_timestamp": 1746296499.0713758}'
+[2025-05-03 21:21:39] [CentralServer] [INFO] Buffered payload (size=8): {'sensor_id': 'S1', 'timestamp': 1746296499.070257, 'temperature': 21.6, 'humidity': 40.46, 'average': 20.81, 'std_dev': 2.14, 'anomaly_flag': False, 'processed_timestamp': 1746296499.0713758}
+[2025-05-03 21:21:41] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 63999), spawning handler thread
+[2025-05-03 21:21:41] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 63999)
+[2025-05-03 21:21:41] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:41] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296501.073793, "temperature": 23.82, "humidity": 68.61, "average": 21.03, "std_dev": 2.37, "anomaly_flag": false, "processed_timestamp": 1746296501.076878}'
+[2025-05-03 21:21:41] [CentralServer] [INFO] Buffered payload (size=9): {'sensor_id': 'S1', 'timestamp': 1746296501.073793, 'temperature': 23.82, 'humidity': 68.61, 'average': 21.03, 'std_dev': 2.37, 'anomaly_flag': False, 'processed_timestamp': 1746296501.076878}
+[2025-05-03 21:21:43] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64001), spawning handler thread
+[2025-05-03 21:21:43] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64001)
+[2025-05-03 21:21:43] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:43] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296503.080106, "temperature": 25.02, "humidity": 62.06, "average": 22.64, "std_dev": 1.71, "anomaly_flag": false, "processed_timestamp": 1746296503.083305}'
+[2025-05-03 21:21:43] [CentralServer] [INFO] Buffered payload (size=10): {'sensor_id': 'S1', 'timestamp': 1746296503.080106, 'temperature': 25.02, 'humidity': 62.06, 'average': 22.64, 'std_dev': 1.71, 'anomaly_flag': False, 'processed_timestamp': 1746296503.083305}
+[2025-05-03 21:21:45] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64003), spawning handler thread
+[2025-05-03 21:21:45] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64003)
+[2025-05-03 21:21:45] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:45] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296505.08573, "temperature": 24.33, "humidity": 69.07, "average": 22.97, "std_dev": 1.84, "anomaly_flag": false, "processed_timestamp": 1746296505.089453}'
+[2025-05-03 21:21:45] [CentralServer] [INFO] Buffered payload (size=11): {'sensor_id': 'S1', 'timestamp': 1746296505.08573, 'temperature': 24.33, 'humidity': 69.07, 'average': 22.97, 'std_dev': 1.84, 'anomaly_flag': False, 'processed_timestamp': 1746296505.089453}
+[2025-05-03 21:21:47] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64005), spawning handler thread
+[2025-05-03 21:21:47] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64005)
+[2025-05-03 21:21:47] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:47] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296507.095913, "temperature": 22.29, "humidity": 57.52, "average": 23.41, "std_dev": 1.28, "anomaly_flag": false, "processed_timestamp": 1746296507.0984352}'
+[2025-05-03 21:21:47] [CentralServer] [INFO] Buffered payload (size=12): {'sensor_id': 'S1', 'timestamp': 1746296507.095913, 'temperature': 22.29, 'humidity': 57.52, 'average': 23.41, 'std_dev': 1.28, 'anomaly_flag': False, 'processed_timestamp': 1746296507.0984352}
+[2025-05-03 21:21:49] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64007), spawning handler thread
+[2025-05-03 21:21:49] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64007)
+[2025-05-03 21:21:49] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:49] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296509.10433, "temperature": 26.47, "humidity": 33.48, "average": 24.39, "std_dev": 1.38, "anomaly_flag": false, "processed_timestamp": 1746296509.107168}'
+[2025-05-03 21:21:49] [CentralServer] [INFO] Buffered payload (size=13): {'sensor_id': 'S1', 'timestamp': 1746296509.10433, 'temperature': 26.47, 'humidity': 33.48, 'average': 24.39, 'std_dev': 1.38, 'anomaly_flag': False, 'processed_timestamp': 1746296509.107168}
+[2025-05-03 21:21:51] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64009), spawning handler thread
+[2025-05-03 21:21:51] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64009)
+[2025-05-03 21:21:51] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:51] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296511.113488, "temperature": 22.91, "humidity": 55.64, "average": 24.2, "std_dev": 1.49, "anomaly_flag": false, "processed_timestamp": 1746296511.116322}'
+[2025-05-03 21:21:51] [CentralServer] [INFO] Buffered payload (size=14): {'sensor_id': 'S1', 'timestamp': 1746296511.113488, 'temperature': 22.91, 'humidity': 55.64, 'average': 24.2, 'std_dev': 1.49, 'anomaly_flag': False, 'processed_timestamp': 1746296511.116322}
+[2025-05-03 21:21:53] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64011), spawning handler thread
+[2025-05-03 21:21:53] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64011)
+[2025-05-03 21:21:53] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:53] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296513.117676, "temperature": 18.71, "humidity": 41.19, "average": 22.94, "std_dev": 2.56, "anomaly_flag": false, "processed_timestamp": 1746296513.1192589}'
+[2025-05-03 21:21:53] [CentralServer] [INFO] Buffered payload (size=15): {'sensor_id': 'S1', 'timestamp': 1746296513.117676, 'temperature': 18.71, 'humidity': 41.19, 'average': 22.94, 'std_dev': 2.56, 'anomaly_flag': False, 'processed_timestamp': 1746296513.1192589}
+[2025-05-03 21:21:55] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64013), spawning handler thread
+[2025-05-03 21:21:55] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64013)
+[2025-05-03 21:21:55] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:55] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296515.125004, "temperature": 17.17, "humidity": 58.18, "average": 21.51, "std_dev": 3.28, "anomaly_flag": false, "processed_timestamp": 1746296515.126954}'
+[2025-05-03 21:21:55] [CentralServer] [INFO] Buffered payload (size=16): {'sensor_id': 'S1', 'timestamp': 1746296515.125004, 'temperature': 17.17, 'humidity': 58.18, 'average': 21.51, 'std_dev': 3.28, 'anomaly_flag': False, 'processed_timestamp': 1746296515.126954}
+[2025-05-03 21:21:57] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64015), spawning handler thread
+[2025-05-03 21:21:57] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64015)
+[2025-05-03 21:21:57] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:57] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296517.132746, "temperature": 26.74, "humidity": 40.48, "average": 22.4, "std_dev": 3.91, "anomaly_flag": false, "processed_timestamp": 1746296517.134998}'
+[2025-05-03 21:21:57] [CentralServer] [INFO] Buffered payload (size=17): {'sensor_id': 'S1', 'timestamp': 1746296517.132746, 'temperature': 26.74, 'humidity': 40.48, 'average': 22.4, 'std_dev': 3.91, 'anomaly_flag': False, 'processed_timestamp': 1746296517.134998}
+[2025-05-03 21:21:59] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64017), spawning handler thread
+[2025-05-03 21:21:59] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64017)
+[2025-05-03 21:21:59] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:21:59] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296519.141116, "temperature": 22.85, "humidity": 42.48, "average": 21.68, "std_dev": 3.4, "anomaly_flag": false, "processed_timestamp": 1746296519.144192}'
+[2025-05-03 21:21:59] [CentralServer] [INFO] Buffered payload (size=18): {'sensor_id': 'S1', 'timestamp': 1746296519.141116, 'temperature': 22.85, 'humidity': 42.48, 'average': 21.68, 'std_dev': 3.4, 'anomaly_flag': False, 'processed_timestamp': 1746296519.144192}
+[2025-05-03 21:22:01] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64019), spawning handler thread
+[2025-05-03 21:22:01] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64019)
+[2025-05-03 21:22:01] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:01] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296521.149945, "temperature": 15.55, "humidity": 38.13, "average": 20.2, "std_dev": 4.07, "anomaly_flag": false, "processed_timestamp": 1746296521.152682}'
+[2025-05-03 21:22:01] [CentralServer] [INFO] Buffered payload (size=19): {'sensor_id': 'S1', 'timestamp': 1746296521.149945, 'temperature': 15.55, 'humidity': 38.13, 'average': 20.2, 'std_dev': 4.07, 'anomaly_flag': False, 'processed_timestamp': 1746296521.152682}
+[2025-05-03 21:22:03] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64021), spawning handler thread
+[2025-05-03 21:22:03] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64021)
+[2025-05-03 21:22:03] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:03] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296523.1574569, "temperature": 24.91, "humidity": 34.16, "average": 21.44, "std_dev": 4.36, "anomaly_flag": false, "processed_timestamp": 1746296523.159992}'
+[2025-05-03 21:22:03] [CentralServer] [INFO] Buffered payload (size=20): {'sensor_id': 'S1', 'timestamp': 1746296523.1574569, 'temperature': 24.91, 'humidity': 34.16, 'average': 21.44, 'std_dev': 4.36, 'anomaly_flag': False, 'processed_timestamp': 1746296523.159992}
+[2025-05-03 21:22:05] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64023), spawning handler thread
+[2025-05-03 21:22:05] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64023)
+[2025-05-03 21:22:05] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:05] [CentralServer] [DEBUG] Raw data received (194 bytes): b'{"sensor_id": "S1", "timestamp": 1746296525.1623812, "temperature": 15.04, "humidity": 47.28, "average": 21.02, "std_dev": 4.83, "anomaly_flag": false, "processed_timestamp": 1746296525.1632152}'
+[2025-05-03 21:22:05] [CentralServer] [INFO] Buffered payload (size=21): {'sensor_id': 'S1', 'timestamp': 1746296525.1623812, 'temperature': 15.04, 'humidity': 47.28, 'average': 21.02, 'std_dev': 4.83, 'anomaly_flag': False, 'processed_timestamp': 1746296525.1632152}
+[2025-05-03 21:22:07] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64025), spawning handler thread
+[2025-05-03 21:22:07] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64025)
+[2025-05-03 21:22:07] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:07] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296527.168693, "temperature": 20.47, "humidity": 30.55, "average": 19.76, "std_dev": 3.91, "anomaly_flag": false, "processed_timestamp": 1746296527.1723032}'
+[2025-05-03 21:22:07] [CentralServer] [INFO] Buffered payload (size=22): {'sensor_id': 'S1', 'timestamp': 1746296527.168693, 'temperature': 20.47, 'humidity': 30.55, 'average': 19.76, 'std_dev': 3.91, 'anomaly_flag': False, 'processed_timestamp': 1746296527.1723032}
+[2025-05-03 21:22:09] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64027), spawning handler thread
+[2025-05-03 21:22:09] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64027)
+[2025-05-03 21:22:09] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:09] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296529.17437, "temperature": 17.25, "humidity": 59.22, "average": 18.64, "std_dev": 3.66, "anomaly_flag": false, "processed_timestamp": 1746296529.177616}'
+[2025-05-03 21:22:09] [CentralServer] [INFO] Buffered payload (size=23): {'sensor_id': 'S1', 'timestamp': 1746296529.17437, 'temperature': 17.25, 'humidity': 59.22, 'average': 18.64, 'std_dev': 3.66, 'anomaly_flag': False, 'processed_timestamp': 1746296529.177616}
+[2025-05-03 21:22:11] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64029), spawning handler thread
+[2025-05-03 21:22:11] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64029)
+[2025-05-03 21:22:11] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:11] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296531.183645, "temperature": 17.64, "humidity": 55.36, "average": 19.06, "std_dev": 3.4, "anomaly_flag": false, "processed_timestamp": 1746296531.1867661}'
+[2025-05-03 21:22:11] [CentralServer] [INFO] Buffered payload (size=24): {'sensor_id': 'S1', 'timestamp': 1746296531.183645, 'temperature': 17.64, 'humidity': 55.36, 'average': 19.06, 'std_dev': 3.4, 'anomaly_flag': False, 'processed_timestamp': 1746296531.1867661}
+[2025-05-03 21:22:13] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64031), spawning handler thread
+[2025-05-03 21:22:13] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64031)
+[2025-05-03 21:22:13] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:13] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296533.192703, "temperature": 19.05, "humidity": 62.7, "average": 17.89, "std_dev": 1.82, "anomaly_flag": false, "processed_timestamp": 1746296533.195562}'
+[2025-05-03 21:22:13] [CentralServer] [INFO] Buffered payload (size=25): {'sensor_id': 'S1', 'timestamp': 1746296533.192703, 'temperature': 19.05, 'humidity': 62.7, 'average': 17.89, 'std_dev': 1.82, 'anomaly_flag': False, 'processed_timestamp': 1746296533.195562}
+[2025-05-03 21:22:15] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64033), spawning handler thread
+[2025-05-03 21:22:15] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64033)
+[2025-05-03 21:22:15] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:15] [CentralServer] [DEBUG] Raw data received (192 bytes): b'{"sensor_id": "S1", "timestamp": 1746296535.201507, "temperature": 20.52, "humidity": 63.31, "average": 18.99, "std_dev": 1.37, "anomaly_flag": false, "processed_timestamp": 1746296535.202358}'
+[2025-05-03 21:22:15] [CentralServer] [INFO] Buffered payload (size=26): {'sensor_id': 'S1', 'timestamp': 1746296535.201507, 'temperature': 20.52, 'humidity': 63.31, 'average': 18.99, 'std_dev': 1.37, 'anomaly_flag': False, 'processed_timestamp': 1746296535.202358}
+[2025-05-03 21:22:17] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64035), spawning handler thread
+[2025-05-03 21:22:17] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64035)
+[2025-05-03 21:22:17] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:17] [CentralServer] [DEBUG] Raw data received (194 bytes): b'{"sensor_id": "S1", "timestamp": 1746296537.2078469, "temperature": 21.94, "humidity": 57.86, "average": 19.28, "std_dev": 1.76, "anomaly_flag": false, "processed_timestamp": 1746296537.2104042}'
+[2025-05-03 21:22:17] [CentralServer] [INFO] Buffered payload (size=27): {'sensor_id': 'S1', 'timestamp': 1746296537.2078469, 'temperature': 21.94, 'humidity': 57.86, 'average': 19.28, 'std_dev': 1.76, 'anomaly_flag': False, 'processed_timestamp': 1746296537.2104042}
+[2025-05-03 21:22:19] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64037), spawning handler thread
+[2025-05-03 21:22:19] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64037)
+[2025-05-03 21:22:19] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:19] [CentralServer] [DEBUG] Raw data received (193 bytes): b'{"sensor_id": "S1", "timestamp": 1746296539.2154791, "temperature": 18.77, "humidity": 38.31, "average": 19.58, "std_dev": 1.49, "anomaly_flag": false, "processed_timestamp": 1746296539.219083}'
+[2025-05-03 21:22:19] [CentralServer] [INFO] Buffered payload (size=28): {'sensor_id': 'S1', 'timestamp': 1746296539.2154791, 'temperature': 18.77, 'humidity': 38.31, 'average': 19.58, 'std_dev': 1.49, 'anomaly_flag': False, 'processed_timestamp': 1746296539.219083}
+[2025-05-03 21:22:21] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64039), spawning handler thread
+[2025-05-03 21:22:21] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64039)
+[2025-05-03 21:22:21] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:21] [CentralServer] [DEBUG] Raw data received (191 bytes): b'{"sensor_id": "S1", "timestamp": 1746296541.223117, "temperature": 18.6, "humidity": 45.61, "average": 19.78, "std_dev": 1.28, "anomaly_flag": false, "processed_timestamp": 1746296541.224247}'
+[2025-05-03 21:22:21] [CentralServer] [INFO] Buffered payload (size=29): {'sensor_id': 'S1', 'timestamp': 1746296541.223117, 'temperature': 18.6, 'humidity': 45.61, 'average': 19.78, 'std_dev': 1.28, 'anomaly_flag': False, 'processed_timestamp': 1746296541.224247}
+[2025-05-03 21:22:23] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64041), spawning handler thread
+[2025-05-03 21:22:23] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64041)
+[2025-05-03 21:22:23] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:23] [CentralServer] [DEBUG] Raw data received (189 bytes): b'{"sensor_id": "S1", "timestamp": 1746296543.23007, "temperature": 28.65, "humidity": 66.4, "average": 21.7, "std_dev": 3.69, "anomaly_flag": false, "processed_timestamp": 1746296543.232735}'
+[2025-05-03 21:22:23] [CentralServer] [INFO] Buffered payload (size=30): {'sensor_id': 'S1', 'timestamp': 1746296543.23007, 'temperature': 28.65, 'humidity': 66.4, 'average': 21.7, 'std_dev': 3.69, 'anomaly_flag': False, 'processed_timestamp': 1746296543.232735}
+[2025-05-03 21:22:25] [CentralServer] [DEBUG] Accepted connection from ('127.0.0.1', 64043), spawning handler thread
+[2025-05-03 21:22:25] [CentralServer] [INFO] Connection from drone: ('127.0.0.1', 64043)
+[2025-05-03 21:22:25] [CentralServer] [DEBUG] Waiting to receive data from drone
+[2025-05-03 21:22:25] [CentralServer] [DEBUG] Raw data received (194 bytes): b'{"sensor_id": "S1", "timestamp": 1746296545.2393842, "temperature": 16.11, "humidity": 61.74, "average": 20.81, "std_dev": 4.33, "anomaly_flag": false, "processed_timestamp": 1746296545.2405388}'
+[2025-05-03 21:22:25] [CentralServer] [INFO] Buffered payload (size=31): {'sensor_id': 'S1', 'timestamp': 1746296545.2393842, 'temperature': 16.11, 'humidity': 61.74, 'average': 20.81, 'std_dev': 4.33, 'anomaly_flag': False, 'processed_timestamp': 1746296545.2405388}
