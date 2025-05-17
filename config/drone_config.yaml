@@ -12,7 +12,11 @@ server_port:   10000         # Central Server’ın dinlediği port
 window_size:         5       # Rolling‐average hesaplamada kullanılacak pencere boyutu
 sigma_threshold:     2       # Anomali eşiği (std_dev × sigma_threshold)
 
-# 4) BatteryMonitor parametreleri
+# 4) BatteryMonitor parametreleriM
 start_level:         100     # Başlangıç pil seviyesi (%)
 drain_rate:          1       # Her check_interval’de düşecek puan (%)
 check_interval:      1.0     # Pil seviyesi kontrol aralığı (saniye)
+
+# 5) Extended Battery and Forwarding settings
+battery_threshold: 20         # Battery level (%) at which to trigger low-battery actions
+pause_on_low_battery: false   # Whether to pause data forwarding on low battery

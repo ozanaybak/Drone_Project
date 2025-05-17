@@ -1,5 +1,3 @@
-
-
 from collections import deque
 import statistics
 import time
@@ -51,6 +49,8 @@ class EdgeProcessor:
             'anomaly_flag': anomaly,
             'processed_timestamp': time.time()
         })
+
+        logger.debug(f"Processed payload with anomaly_flag: {payload}")
 
         if anomaly:
             logger.warning(f"Anomaly detected: temp={temp}, avg={avg}, stddev={stddev}")

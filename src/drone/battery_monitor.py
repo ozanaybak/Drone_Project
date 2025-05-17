@@ -1,6 +1,7 @@
 import threading
 import time
 from src.common.logging_setup import get_logger
+import yaml
 
 logger = get_logger('BatteryMonitor')
 
@@ -18,6 +19,14 @@ class BatteryMonitor(threading.Thread):
         self.drain_rate = drain_rate
         self.check_interval = check_interval
         self._stop_event = threading.Event()
+        # Load pause setting from drone_config.yaml
+        try:
+            with open("config/drone_config.yaml") as f:
+                cfg = yaml.safe_load(f)
+        except Exception:
+            cfg = {}
+        self.pause_on_low_battery = cfg.get('pause_on_low_battery', False)
+        self.paused = False
 
     def stop(self):
         """Stops the battery monitor thread."""
@@ -32,5 +41,12 @@ class BatteryMonitor(threading.Thread):
             logger.debug(f"Battery level: {self.level}%")
             if self.level <= 20:
                 logger.warning(f"Battery low ({self.level}%), triggering RETURN_HOME")
+                if self.pause_on_low_battery and not self.paused:
+                    self.paused = True
+                    logger.info("Pausing data forwarding due to low battery")
                 self.callback('RETURN_HOME', self.level)
+            else:
+                if self.paused:
+                    self.paused = False
+                    logger.info("Battery recovered, resuming data forwarding")
         logger.info("BatteryMonitor stopped at level=%d%%", self.level)

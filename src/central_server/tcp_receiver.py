@@ -7,16 +7,16 @@ import time
 from collections import deque
 from threading import Thread
 from src.common.logging_setup import get_logger
-from src.central_server.dashboard import run_dashboard
+import queue
 
 logger = get_logger('CentralServer')
 
-# Shared in-memory buffer for processed payloads
-buffer = deque(maxlen=100)
+# Global buffer to store received payloads
+buffer = []
 
-def handle_drone(conn, addr):
+def handle_drone(conn, addr, output_queue):
     """
-    Handle incoming connections from the drone:
+    incoming connections from the drone:
     - Receive JSON payload
     - Parse and append to buffer
     - Send back an ACK
@@ -29,6 +29,8 @@ def handle_drone(conn, addr):
         if not data:
             return
         payload = json.loads(data.decode('utf-8'))
+        print(f"[RECV] enqueue: {payload}")
+        output_queue.put(payload)
         buffer.append(payload)
         logger.info(f"Buffered payload (size={len(buffer)}): {payload}")
         # Send ACK
@@ -39,18 +41,19 @@ def handle_drone(conn, addr):
     finally:
         conn.close()
 
-def start_server(host, port):
+def start_server(host: str, port: int, output_queue: queue.Queue):
     """
     Start the TCP server to accept connections from the drone.
     """
     srv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    srv.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
     srv.bind((host, port))
     srv.listen(5)
     logger.info(f"CentralServer listening on {host}:{port}")
     while True:
         conn, addr = srv.accept()
         logger.debug(f"Accepted connection from {addr}, spawning handler thread")
-        threading.Thread(target=handle_drone, args=(conn, addr), daemon=True).start()
+        threading.Thread(target=handle_drone, args=(conn, addr, output_queue), daemon=True).start()
 
 def main():
     parser = argparse.ArgumentParser(description="Central Server TCP Receiver")
@@ -70,13 +73,8 @@ def main():
     server_port = cfg.get('server_port', 10000)
     logger.debug(f"Central server port: {server_port}")
 
-    logger.info("Starting dashboard thread")
-    # Start dashboard in background thread
-    dashboard_thread = Thread(target=run_dashboard, args=(buffer,), daemon=True)
-    dashboard_thread.start()
-
+    # dashboard will be driven by poll_data in main.py, so no thread launch here
     logger.info("Starting TCP server for drone data")
-    # Start the TCP server for drone data
     start_server(server_host, server_port)
 
 if __name__ == "__main__":

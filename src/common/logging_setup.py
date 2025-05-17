@@ -38,3 +38,11 @@ def get_logger(name: str) -> logging.Logger:
         logger.addHandler(fh)
 
     return logger
+
+def set_global_log_level(level_str: str):
+    """
+    Set the root logger's level based on a string name.
+    """
+    import logging
+    level = getattr(logging, level_str.upper(), logging.INFO)
+    logging.getLogger().setLevel(level)

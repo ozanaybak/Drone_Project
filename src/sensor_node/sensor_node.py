@@ -4,6 +4,7 @@ import json
 import argparse
 import yaml
 import random
+from datetime import datetime
 from src.common.logging_setup import get_logger
 
 logger = get_logger('SensorNode')
@@ -28,7 +29,8 @@ def send_data(host, port, payload, retries):
         except Exception as e:
             attempt += 1
             logger.warning(f"Send attempt {attempt}/{retries} failed: {e}")
-            time.sleep(1)
+            logger.info("Waiting 5 seconds before retry")
+            time.sleep(5)
         finally:
             if sock:
                 try:
@@ -41,6 +43,11 @@ def send_data(host, port, payload, retries):
 def main():
     parser = argparse.ArgumentParser(description="Sensor Node TCP Client")
     parser.add_argument('--config', required=True, help='Path to sensor_config.yaml')
+    parser.add_argument('--drone-host', type=str, help='Drone TCP server IP address')
+    parser.add_argument('--drone-port', type=int, help='Drone TCP server port')
+    parser.add_argument('--sensor-id', type=str, help='Unique sensor ID')
+    parser.add_argument('--interval', type=int, help='Data send interval in seconds')
+    parser.add_argument('--retries', type=int, help='Number of retry attempts on failure')
     args = parser.parse_args()
 
     # Load configuration
@@ -50,20 +57,31 @@ def main():
         logger.error(f"Failed to load config: {e}")
         return
 
-    drone_host = cfg.get('drone_host', '127.0.0.1')
-    drone_port = cfg.get('drone_port', 9000)
-    sensor_id = cfg.get('sensor_id', 'S1')
-    send_interval = cfg.get('send_interval', 2)
-    retries = cfg.get('retries', 3)
+    drone_host = args.drone_host if args.drone_host else cfg.get('drone_host', '127.0.0.1')
+    drone_port = args.drone_port if args.drone_port else cfg.get('drone_port', 9000)
+    sensor_id = args.sensor_id if args.sensor_id else cfg.get('sensor_id', 'S1')
+    send_interval = args.interval if args.interval else cfg.get('send_interval', 2)
+    retries = args.retries if args.retries else cfg.get('retries', 3)
+
+    # probability to inject an anomaly
+    anomaly_prob = cfg.get('anomaly_probability', 0.1)
 
     logger.info(f"SensorNode {sensor_id} starting. Sending to {drone_host}:{drone_port}")
     while True:
-        # Prepare payload with random sensor data
+        # Prepare payload with random sensor data, occasionally inject anomaly
+        if random.random() < anomaly_prob:
+            # Anomalous reading
+            temperature = 1000.0
+            humidity = 0.0
+        else:
+            # Normal reading
+            temperature = round(random.uniform(15.0, 30.0), 2)
+            humidity    = round(random.uniform(30.0, 70.0), 2)
         payload = {
             "sensor_id": sensor_id,
-            "timestamp": time.time(),
-            "temperature": round(random.uniform(15.0, 30.0), 2),
-            "humidity": round(random.uniform(30.0, 70.0), 2)
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "temperature": temperature,
+            "humidity": humidity
         }
         logger.debug(f"Prepared payload: {payload}")
         success = send_data(drone_host, drone_port, payload, retries)
