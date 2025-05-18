@@ -1,6 +1,7 @@
 import time
 from src.common.logging_setup import get_logger
 from src.central_server.dashboard_gui import update_dashboard
+from src.drone.gui import update_sensor_data
 
 logger = get_logger('Dashboard')
 
@@ -18,6 +19,7 @@ def run_dashboard(buffer, interval: float = 2.0, display_count: int = 5):
             logger.info(f"Last {display_count} entries: {recent}")
             for item in recent:
                 update_dashboard(item)
+                update_sensor_data(item)
         else:
             logger.info("Buffer is empty.")
         time.sleep(interval)
@@ -40,6 +42,7 @@ def run_all_tests(queue):
     for entry in normal_data:
         queue.append(entry)
         update_dashboard(entry)
+        update_sensor_data(entry)
         logger.info(f"Test - Normal data injected: {entry}")
         time.sleep(1)
 

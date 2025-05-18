@@ -19,6 +19,7 @@ anomaly_list_table = None
 log_scroll_text = None
 anomaly_threshold_scale = None
 battery_progress = None
+battery_label = None
 status_text_label = None
 avg_temp_fig = None
 avg_temp_canvas = None
@@ -50,12 +51,14 @@ def update_sensor_data(sensor_data):
         str(sensor_data.get("std_dev", "")),
         "⚠" if anomaly_flag else ""
     )
-    sensor_table.insert("", "end", values=values)
+    if sensor_table:
+        sensor_table.insert("", "end", values=values)
 
     # logging panel
     log_msg = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Data from {sensor_data['sensor_id']} received\n"
-    log_scroll_text.insert(tk.END, log_msg)
-    log_scroll_text.see(tk.END)
+    if log_scroll_text:
+        log_scroll_text.insert(tk.END, log_msg)
+        log_scroll_text.see(tk.END)
 
     # if anomaly, add to anomaly list and anomaly table with type safety and error check
     if anomaly_flag and anomaly_list_table:
@@ -73,16 +76,27 @@ def update_sensor_data(sensor_data):
     # Use average if available, otherwise fall back to temperature
     temp_val = sensor_data.get("average", sensor_data["temperature"])
     hum_val = sensor_data.get("humidity")
+    print("📈 TEMP_VAL:", temp_val, "HUM_VAL:", hum_val)
 
     # Safeguard: Only append if values exist and are not None
     if temp_val is not None and hum_val is not None:
-        if sensor_id not in temperature_history:
-            temperature_history[sensor_id] = []
-        if sensor_id not in humidity_history:
-            humidity_history[sensor_id] = []
+        try:
+            temp_val = float(temp_val)
+            hum_val = float(hum_val)
+            print("✅ Appending:", sensor_id, temp_val, hum_val)
 
-        temperature_history[sensor_id].append(temp_val)
-        humidity_history[sensor_id].append(hum_val)
+            if sensor_id not in temperature_history:
+                temperature_history[sensor_id] = []
+            if sensor_id not in humidity_history:
+                humidity_history[sensor_id] = []
+
+            temperature_history[sensor_id].append(temp_val)
+            humidity_history[sensor_id].append(hum_val)
+
+            print("🧊 TEMP HISTORY:", temperature_history[sensor_id])
+            print("💧 HUMIDITY HISTORY:", humidity_history[sensor_id])
+        except Exception as e:
+            print("❌ Cannot convert values to float:", temp_val, hum_val, e)
 
         # Limit history to last 30 entries
         if len(temperature_history[sensor_id]) > 30:
@@ -103,6 +117,8 @@ def update_sensor_data(sensor_data):
             x_vals = list(range(-len(temps)+1, 1))
             marker = markers[idx % len(markers)]
             ax_temp.plot(x_vals, temps, label=sid, marker=marker)
+            print(f"📊 PLOTTING TEMP for {sid}: {temps}")
+
     ax_temp.legend(loc='upper right')
     avg_temp_canvas.draw()
 
@@ -118,6 +134,8 @@ def update_sensor_data(sensor_data):
             x_vals = list(range(-len(hums)+1, 1))
             marker = markers[idx % len(markers)]
             ax_humidity.plot(x_vals, hums, label=sid, marker=marker)
+            print(f"📊 PLOTTING HUMIDITY for {sid}: {hums}")
+
     ax_humidity.legend(loc='upper right')
     avg_humidity_canvas.draw()
 
@@ -135,7 +153,7 @@ def build_drone_panel(root):
     top_graph_frame.pack(fill=tk.X, padx=5, pady= 15)
 
     # Average Temperature plot
-    avg_temp_fig = plt.Figure(figsize=(7,2), dpi=100)
+    avg_temp_fig = plt.Figure(figsize=(7,3), dpi=100)
     ax_temp = avg_temp_fig.add_subplot(111)
     ax_temp.set_title("Average Temperature Over Time")
     ax_temp.set_xlabel("Time")
@@ -146,7 +164,7 @@ def build_drone_panel(root):
     avg_temp_canvas.get_tk_widget().pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
     # Average Humidity plot
-    avg_humidity_fig = plt.Figure(figsize=(7,2), dpi=100)
+    avg_humidity_fig = plt.Figure(figsize=(7,3), dpi=100)
     ax_humidity = avg_humidity_fig.add_subplot(111)
     ax_humidity.set_title("Average Humidity Over Time")
     ax_humidity.set_xlabel("Time")
@@ -166,5 +184,29 @@ def build_drone_panel(root):
 
     drain_button = tk.Button(main_frame, text="Simulate Battery Drain", command=simulate_battery_drain)
     drain_button.pack(pady=5)
+
+
+    # Battery Display Frame
+    battery_frame = tk.Frame(main_frame)
+    battery_frame.pack(pady=3)
+
+    # Global tanım için referansı yukarıda yapmalısın: global battery_label
+    global battery_label
+    battery_label = tk.Label(battery_frame, text="Battery: 100%", font=("Arial", 10))
+    battery_label.pack()
+
+    # Battery güncelleme fonksiyonu
+    def update_battery_display(level):
+        if battery_label:
+            battery_label.config(text=f"Battery: {level}%")
+
+    # GUI'ye battery callback'ini tanıt
+    from src.drone.battery_monitor import set_battery_callback
+    set_battery_callback(update_battery_display)
+  
+
+
+    
+   
 
    
