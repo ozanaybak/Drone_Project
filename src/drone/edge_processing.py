@@ -3,6 +3,12 @@ import statistics
 import time
 from src.common.logging_setup import get_logger
 
+# Absolute thresholds for anomaly detection
+TEMP_MIN = -50.0
+TEMP_MAX = 100.0
+HUMIDITY_MIN = 0.0
+HUMIDITY_MAX = 100.0
+
 logger = get_logger('EdgeProcessor')
 
 class EdgeProcessor:
@@ -37,10 +43,14 @@ class EdgeProcessor:
         avg = statistics.mean(self.window)
         stddev = statistics.pstdev(self.window) if len(self.window) > 1 else 0.0
 
-        # Determine anomaly: |temp - avg| > sigma_threshold * stddev
-        anomaly = False
+        # Determine statistical anomaly
+        sigma_flag = False
         if stddev > 0 and abs(temp - avg) > self.sigma_threshold * stddev:
-            anomaly = True
+            sigma_flag = True
+        # Determine absolute-range anomaly
+        abs_flag = not (TEMP_MIN <= temp <= TEMP_MAX and HUMIDITY_MIN <= payload.get('humidity', 0.0) <= HUMIDITY_MAX)
+        # Combine both flags
+        anomaly = sigma_flag or abs_flag
 
         # Update payload
         payload.update({

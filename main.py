@@ -1,6 +1,4 @@
-import dearpygui.dearpygui as dpg
 import threading
-import queue
 from datetime import datetime
 from src.drone.tcp_server import start_server as start_drone_server
 from src.central_server.tcp_receiver import start_server as start_central_server
@@ -8,53 +6,25 @@ from src.common.queue_manager import data_queue
 import src.drone.gui as drone_gui
 import argparse
 import yaml
+from collections import deque
+from src.central_server.dashboard_gui import build_dashboard_panel
+import tkinter as tk
 
-
-def clear_dashboard_table(sender, app_data):
-    print("[GUI] Clear Dashboard pressed")
-    dpg.clear_table("central_table")
-
-def poll_data():
-    while True:
-        print("poll_data: waiting for new data")
-        sensor_data = data_queue.get()
-        print(f"poll_data: received data: {sensor_data}")
-
-        # GUI thread’inde çalışacak satır ekleme callback’i
-        def _add_row(data=sensor_data):
-            # select processed payload if tuple, else use data directly
-            item = data[1] if isinstance(data, tuple) and len(data) > 1 else data
-            print(f"[GUI] Adding row to central_table: {item}")
-            dpg.add_table_row(
-                "central_table",
-                [ str(item.get(col, "")) 
-                  for col in ["sensor_id","timestamp",
-                              "temperature","humidity",
-                              "average","std_dev",
-                              "anomaly_flag"] ]
-            )
-
-        # Ana döngüye callback’i submit et
-        dpg.invoke(_add_row)
+# Rolling buffer: map sensor_id to deque of (timestamp, temperature)
+rolling_buffers = {}
+current_sensor = None
 
 
 def build_gui():
-    with dpg.window(label="Unified Dashboard", width=1000, height=700):
-        with dpg.child(label="Drone Panel", width=450, height=650, border=True):
-            # Drone GUI’i oradan çağır
-            drone_gui.build_drone_panel("Drone Panel")
+    root = tk.Tk()
+    root.title("Unified Dashboard")
+    root.geometry("1000x700")
 
-        dpg.add_same_line()
+    drone_gui.build_drone_panel(root)
+    update_dashboard, clear_dashboard = build_dashboard_panel(root)
 
-        with dpg.child(label="Dashboard Panel", width=530, height=650, border=True):
-            # Central‐server tablon
-            with dpg.table(tag="central_table", header_row=True):
-                for col in ["sensor_id","timestamp","temperature","humidity","average","std_dev","anomaly_flag"]:
-                    dpg.add_table_column(label=col)
-            dpg.add_button(label="Clear Dashboard", callback=clear_dashboard_table)
-            dpg.add_separator()
-            dpg.add_text("Server Log:", tag="ServerLogLabel")
-            dpg.add_child_window(tag="CentralLog", width=-1, height=200)
+    return update_dashboard, clear_dashboard, root
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Unified Dashboard and Servers")
@@ -96,12 +66,9 @@ if __name__ == "__main__":
         )
     drone_tcp.battery_monitor.start()
 
-    dpg.create_context()
-    dpg.create_viewport(title="Unified Dashboard", width=1000, height=700)
-    # Use manual callback management to integrate data polling
-    dpg.configure_app(manual_callback_management=True)
-    build_gui()
-    # Launch the drone and central-server backends, then start polling for GUI updates
+    update_dashboard, clear_dashboard, root = build_gui()
+
+    # Launch the drone and central-server backends
     threading.Thread(
         target=lambda: start_drone_server(drone_host, drone_port, central_host, central_port, data_queue),
         daemon=True
@@ -110,34 +77,27 @@ if __name__ == "__main__":
         target=lambda: start_central_server(central_host, central_port, data_queue),
         daemon=True
     ).start()
-    dpg.setup_dearpygui()
-    dpg.show_viewport()
 
-    # Main loop integrates GUI rendering and data polling
-    import queue as _qp
-    while dpg.is_dearpygui_running():
-        # drain incoming data
+    def poll_data():
+        import queue as _qp
         try:
-            sensor_data = data_queue.get(block=False)
-            item = sensor_data[1] if isinstance(sensor_data, tuple) and len(sensor_data) > 1 else sensor_data
-            # add a new row using table_row context and text cells
-            with dpg.table_row(parent="central_table"):
-                for col in ["sensor_id","timestamp","temperature","humidity","average","std_dev","anomaly_flag"]:
-                    dpg.add_text(str(item.get(col, "")))
-            # log every received message
-            log_msg = f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Received data: {item}"
-            if item.get("anomaly_flag"):
-                dpg.add_text(log_msg, parent="CentralLog", color=(255, 100, 100))
-            else:
-                dpg.add_text(log_msg, parent="CentralLog")
+            while True:
+                sensor_data = data_queue.get(block=False)
+                item = sensor_data[1] if isinstance(sensor_data, tuple) and len(sensor_data) > 1 else sensor_data
+                # update central dashboard table and anomaly log
+                update_dashboard(item)
+                # Update rolling buffer for this sensor
+                buf = rolling_buffers.setdefault(item["sensor_id"], deque(maxlen=50))
+                buf.append((item["timestamp"], item["temperature"]))
+                # If this is the currently selected sensor, update chart
+                global current_sensor
+                if current_sensor == item["sensor_id"]:
+                    buf = rolling_buffers[item["sensor_id"]]
+                    times, temps = zip(*buf)
+                    # Assuming update_dashboard handles chart updates internally
         except _qp.Empty:
             pass
+        root.after(100, poll_data)
 
-        # process DearPyGui internal callbacks
-        jobs = dpg.get_callback_queue()
-        if jobs:
-            dpg.run_callbacks(jobs)
-
-        dpg.render_dearpygui_frame()
-
-    dpg.destroy_context()
+    root.after(100, poll_data)
+    root.mainloop()

@@ -16,11 +16,11 @@ battery_monitor: BatteryMonitor = None
 
 logger = get_logger('DroneTCPServer')
 
-def on_battery_event(event: str, level: int):
+def on_battery_event(level: int):
     """
-    BatteryMonitor %20’nin altına düştüğünde tetiklenen callback.
+    BatteryMonitor invokes this callback with the current battery level.
     """
-    logger.warning(f"Battery event '{event}' at level={level}%")
+    logger.warning(f"Battery low at level={level}%")
 
 def forward_to_central(payload: dict, host: str, port: int):
     """
