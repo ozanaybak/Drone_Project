@@ -8,7 +8,6 @@ from src.common.logging_setup import get_logger
 from src.drone.edge_processing import EdgeProcessor
 from src.drone.battery_monitor import BatteryMonitor
 from src.common.queue_manager import data_queue
-from src.drone.gui import update_sensor_data
 
 
 
@@ -58,6 +57,7 @@ def handle_client(conn, addr, server_host, server_port, data_queue):
             processed = processor.process(payload.copy())
             logger.info(f"Processed payload: {processed}")
             import threading
+            from src.drone.gui import update_sensor_data
             threading.Thread(target=update_sensor_data, args=(processed,), daemon=True).start()
             # Explicitly log the anomaly flag status
             if 'anomaly_flag' in processed:

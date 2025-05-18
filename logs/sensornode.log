@@ -1141,3 +1141,784 @@
 [2025-05-18 19:01:00] [SensorNode] [INFO] Waiting 5 seconds before retry
 [2025-05-18 19:01:05] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
 [2025-05-18 19:01:05] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:10] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:01:10] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:01:11] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:01:11.870394Z', 'temperature': 21.54, 'humidity': 48.27}
+[2025-05-18 19:01:11] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:11] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:16] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:16] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:21] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:21] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:26] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:01:26] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:01:27] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:01:27.894491Z', 'temperature': 20.41, 'humidity': 38.37}
+[2025-05-18 19:01:27] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:27] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:32] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:32] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:37] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:37] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:42] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:01:42] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:01:43] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:01:43.918741Z', 'temperature': 17.4, 'humidity': 56.45}
+[2025-05-18 19:01:43] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:43] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:48] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:48] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:53] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:53] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:01:58] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:01:58] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:01:59] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:01:59.940728Z', 'temperature': 25.81, 'humidity': 49.28}
+[2025-05-18 19:01:59] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:01:59] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:04] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:04] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:09] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:14] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:02:14] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:02:15] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:02:15.955919Z', 'temperature': 27.35, 'humidity': 39.01}
+[2025-05-18 19:02:15] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:15] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:20] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:20] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:25] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:25] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:30] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:02:30] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:02:31] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:02:31.970647Z', 'temperature': 21.96, 'humidity': 69.1}
+[2025-05-18 19:02:31] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:31] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:36] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:36] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:41] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:41] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:46] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:02:46] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:02:47] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:02:47.992432Z', 'temperature': 22.66, 'humidity': 50.33}
+[2025-05-18 19:02:47] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:47] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:52] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:52] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:02:58] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:02:58] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:03] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:03:03] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:03:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:03:04.010073Z', 'temperature': 26.84, 'humidity': 47.06}
+[2025-05-18 19:03:04] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:04] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:14] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:14] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:19] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:03:19] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:03:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:03:20.032985Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:03:20] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:20] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:25] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:25] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:30] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:30] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:35] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:03:35] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:03:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:03:36.051200Z', 'temperature': 17.98, 'humidity': 53.88}
+[2025-05-18 19:03:36] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:36] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:41] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:41] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:46] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:46] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:51] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:03:51] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:03:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:03:52.075534Z', 'temperature': 19.92, 'humidity': 52.79}
+[2025-05-18 19:03:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:52] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:03:57] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:03:57] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:02] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:02] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:07] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:04:07] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:04:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:04:08.090354Z', 'temperature': 26.67, 'humidity': 69.0}
+[2025-05-18 19:04:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:08] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:13] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:13] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:18] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:18] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:23] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:04:23] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:04:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:04:24.105429Z', 'temperature': 25.49, 'humidity': 37.42}
+[2025-05-18 19:04:24] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:24] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:29] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:29] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:34] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:34] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:39] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:04:39] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:04:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:04:40.127907Z', 'temperature': 16.27, 'humidity': 32.82}
+[2025-05-18 19:04:40] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:40] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:45] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:45] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:50] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:50] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:04:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:04:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:04:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:04:56.141119Z', 'temperature': 15.63, 'humidity': 48.95}
+[2025-05-18 19:04:56] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:04:56] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:01] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:01] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:06] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:06] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:05:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:05:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:05:12.163889Z', 'temperature': 24.31, 'humidity': 46.45}
+[2025-05-18 19:05:12] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:12] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:17] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:17] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:22] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:22] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:27] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:05:27] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:05:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:05:28.175571Z', 'temperature': 26.49, 'humidity': 67.02}
+[2025-05-18 19:05:28] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:28] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:33] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:33] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:38] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:38] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:43] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:05:43] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:05:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:05:44.190366Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:05:44] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:44] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:49] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:49] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:05:54] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:05:59] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:05:59] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:06:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:06:00.205968Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:06:00] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:00] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:05] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:05] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:10] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:10] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:15] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:06:15] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:06:16] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:06:16.231684Z', 'temperature': 22.57, 'humidity': 56.19}
+[2025-05-18 19:06:16] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:16] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:21] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:21] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:26] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:26] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:31] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:06:31] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:06:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:06:32.250701Z', 'temperature': 19.24, 'humidity': 46.97}
+[2025-05-18 19:06:32] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:32] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:37] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:37] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:42] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:42] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:47] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:06:47] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:06:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:06:48.268027Z', 'temperature': 15.27, 'humidity': 60.34}
+[2025-05-18 19:06:48] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:48] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:53] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:06:58] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:06:58] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:03] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:07:03] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:07:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:07:04.280024Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:07:04] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:04] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:14] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:14] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:19] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:07:19] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:07:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:07:20.302296Z', 'temperature': 25.31, 'humidity': 39.47}
+[2025-05-18 19:07:20] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:20] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:25] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:25] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:30] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:30] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:35] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:07:35] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:07:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:07:36.315474Z', 'temperature': 21.85, 'humidity': 45.99}
+[2025-05-18 19:07:36] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:36] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:41] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:41] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:46] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:46] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:51] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:07:51] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:07:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:07:52.334078Z', 'temperature': 17.37, 'humidity': 31.7}
+[2025-05-18 19:07:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:52] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:07:57] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:07:57] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:02] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:02] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:07] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:08:07] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:08:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:08:08.355673Z', 'temperature': 23.79, 'humidity': 32.07}
+[2025-05-18 19:08:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:08] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:13] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:13] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:18] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:18] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:23] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:08:23] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:08:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:08:24.372947Z', 'temperature': 17.59, 'humidity': 37.52}
+[2025-05-18 19:08:24] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:24] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:29] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:29] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:34] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:34] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:39] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:08:39] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:08:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:08:40.397963Z', 'temperature': 26.39, 'humidity': 58.91}
+[2025-05-18 19:08:40] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:40] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:45] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:45] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:50] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:50] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:08:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:08:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:08:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:08:56.413901Z', 'temperature': 22.91, 'humidity': 57.31}
+[2025-05-18 19:08:56] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:08:56] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:01] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:01] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:06] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:06] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:09:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:09:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:09:12.435444Z', 'temperature': 20.73, 'humidity': 59.84}
+[2025-05-18 19:09:12] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:12] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:17] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:17] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:22] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:22] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:27] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:09:27] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:09:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:09:28.450486Z', 'temperature': 27.88, 'humidity': 32.81}
+[2025-05-18 19:09:28] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:28] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:33] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:33] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:38] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:38] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:43] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:09:43] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:09:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:09:44.461529Z', 'temperature': 29.36, 'humidity': 62.22}
+[2025-05-18 19:09:44] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:44] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:49] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:49] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:09:54] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:09:59] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:09:59] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:10:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:10:00.483762Z', 'temperature': 21.74, 'humidity': 48.59}
+[2025-05-18 19:10:00] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:00] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:05] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:05] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:10] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:10] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:15] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:10:15] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:10:16] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:10:16.502904Z', 'temperature': 23.03, 'humidity': 65.78}
+[2025-05-18 19:10:16] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:16] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:21] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:21] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:26] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:26] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:31] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:10:31] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:10:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:10:32.524921Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:10:32] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:32] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:37] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:37] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:42] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:42] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:47] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:10:47] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:10:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:10:48.540963Z', 'temperature': 20.62, 'humidity': 30.86}
+[2025-05-18 19:10:48] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:48] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:53] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:10:58] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:10:58] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:03] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:11:03] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:11:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:11:04.555226Z', 'temperature': 20.16, 'humidity': 56.08}
+[2025-05-18 19:11:04] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:04] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:14] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:14] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:19] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:11:19] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:11:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:11:20.570763Z', 'temperature': 19.89, 'humidity': 52.28}
+[2025-05-18 19:11:20] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:20] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:25] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:25] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:30] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:30] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:35] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:11:35] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:11:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:11:36.585650Z', 'temperature': 26.68, 'humidity': 69.86}
+[2025-05-18 19:11:36] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:36] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:41] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:41] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:46] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:46] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:51] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:11:51] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:11:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:11:52.604816Z', 'temperature': 19.59, 'humidity': 48.44}
+[2025-05-18 19:11:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:52] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:11:57] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:11:57] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:02] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:02] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:07] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:12:07] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:12:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:12:08.629403Z', 'temperature': 16.51, 'humidity': 64.29}
+[2025-05-18 19:12:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:08] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:13] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:13] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:18] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:18] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:23] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:12:23] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:12:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:12:24.640044Z', 'temperature': 15.99, 'humidity': 56.93}
+[2025-05-18 19:12:24] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:24] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:29] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:29] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:34] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:34] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:39] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:12:39] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:12:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:12:40.659755Z', 'temperature': 21.9, 'humidity': 34.51}
+[2025-05-18 19:12:40] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:40] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:45] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:45] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:50] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:50] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:12:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:12:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:12:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:12:56.677028Z', 'temperature': 26.47, 'humidity': 62.99}
+[2025-05-18 19:12:56] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:12:56] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:01] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:01] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:06] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:06] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:13:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:13:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:13:12.693651Z', 'temperature': 16.65, 'humidity': 36.41}
+[2025-05-18 19:13:12] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:12] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:17] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:17] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:22] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:22] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:27] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:13:27] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:13:28] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:13:28.709185Z', 'temperature': 20.92, 'humidity': 61.15}
+[2025-05-18 19:13:28] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:28] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:33] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:33] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:38] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:38] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:43] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:13:43] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:13:44] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:13:44.726174Z', 'temperature': 24.63, 'humidity': 62.33}
+[2025-05-18 19:13:44] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:44] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:49] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:49] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:54] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:13:54] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:13:59] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:13:59] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:14:00] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:14:00.743847Z', 'temperature': 26.99, 'humidity': 61.56}
+[2025-05-18 19:14:00] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:00] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:05] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:05] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:10] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:10] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:15] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:14:15] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:14:16] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:14:16.767558Z', 'temperature': 19.36, 'humidity': 43.17}
+[2025-05-18 19:14:16] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:16] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:21] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:21] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:26] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:26] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:31] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:14:31] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:14:32] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:14:32.782037Z', 'temperature': 26.33, 'humidity': 67.99}
+[2025-05-18 19:14:32] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:32] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:37] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:37] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:42] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:42] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:47] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:14:47] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:14:48] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:14:48.806612Z', 'temperature': 24.53, 'humidity': 64.81}
+[2025-05-18 19:14:48] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:48] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:53] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:53] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:14:58] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:14:58] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:03] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:15:03] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:15:04] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:15:04.820397Z', 'temperature': 18.03, 'humidity': 59.32}
+[2025-05-18 19:15:04] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:04] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:09] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:14] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:14] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:19] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:15:19] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:15:20] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:15:20.835167Z', 'temperature': 23.99, 'humidity': 43.85}
+[2025-05-18 19:15:20] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:20] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:25] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:25] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:30] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:30] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:35] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:15:35] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:15:36] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:15:36.851212Z', 'temperature': 27.76, 'humidity': 60.72}
+[2025-05-18 19:15:36] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:36] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:41] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:41] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:46] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:46] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:51] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:15:51] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:15:52] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:15:52.867454Z', 'temperature': 25.84, 'humidity': 37.38}
+[2025-05-18 19:15:52] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:52] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:15:57] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:15:57] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:02] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:02] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:07] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:16:07] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:16:08] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:16:08.884528Z', 'temperature': 17.83, 'humidity': 31.43}
+[2025-05-18 19:16:08] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:08] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:13] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:13] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:18] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:18] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:23] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:16:23] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:16:24] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:16:24.909962Z', 'temperature': 19.22, 'humidity': 61.45}
+[2025-05-18 19:16:24] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:24] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:29] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:29] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:34] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:34] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:39] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:16:39] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:16:40] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:16:40.925804Z', 'temperature': 15.73, 'humidity': 55.87}
+[2025-05-18 19:16:40] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:40] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:45] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:45] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:50] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:50] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:16:55] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:16:55] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:16:56] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:16:56.949594Z', 'temperature': 22.44, 'humidity': 60.49}
+[2025-05-18 19:16:56] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:16:56] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:01] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:01] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:06] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:06] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:11] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:17:11] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:17:12] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:17:12.980207Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:17:12] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:12] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:17] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:17] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:22] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:22] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:27] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:17:27] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:17:29] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:17:29.007022Z', 'temperature': 23.22, 'humidity': 55.76}
+[2025-05-18 19:17:29] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:29] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:34] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:34] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:39] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:39] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:44] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:17:44] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:17:45] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:17:45.028398Z', 'temperature': 24.69, 'humidity': 36.13}
+[2025-05-18 19:17:45] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:45] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:50] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:50] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:17:55] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:17:55] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:00] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:18:00] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:18:01] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:18:01.060652Z', 'temperature': 23.88, 'humidity': 36.49}
+[2025-05-18 19:18:01] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:01] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:06] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:06] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:11] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:11] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:16] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:18:16] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:18:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:18:17.088144Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:18:17] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:17] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:22] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:27] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:27] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:32] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:18:32] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:18:33] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:18:33.118158Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:18:33] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:33] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:38] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:38] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:43] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:43] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:48] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:18:48] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:18:49] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:18:49.146690Z', 'temperature': 24.47, 'humidity': 30.97}
+[2025-05-18 19:18:49] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:49] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:54] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:54] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:18:59] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:18:59] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:04] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:19:04] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:19:05] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:19:05.166189Z', 'temperature': 21.83, 'humidity': 49.06}
+[2025-05-18 19:19:05] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:05] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:10] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:10] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:15] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:15] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:20] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:19:20] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:19:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:19:21.186266Z', 'temperature': 18.94, 'humidity': 51.93}
+[2025-05-18 19:19:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:21] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:26] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:26] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:31] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:31] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:36] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:19:36] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:19:37] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:19:37.215255Z', 'temperature': 22.57, 'humidity': 69.22}
+[2025-05-18 19:19:37] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:37] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:42] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:42] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:47] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:47] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:52] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:19:52] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:19:53] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:19:53.237382Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:19:53] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:53] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:19:58] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:19:58] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:03] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:03] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:08] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:20:08] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:20:09] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:20:09.266748Z', 'temperature': 28.61, 'humidity': 69.85}
+[2025-05-18 19:20:09] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:14] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:14] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:19] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:19] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:24] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:20:24] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:20:25] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:20:25.292860Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:20:25] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:25] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:30] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:30] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:35] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:35] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:40] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:20:40] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:20:41] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:20:41.331419Z', 'temperature': 21.69, 'humidity': 61.29}
+[2025-05-18 19:20:41] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:41] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:46] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:46] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:51] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:51] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:20:56] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:20:56] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:20:57] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:20:57.362839Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:20:57] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:20:57] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:02] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:02] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:07] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:07] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:12] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:21:12] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:21:13] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:21:13.397908Z', 'temperature': 26.32, 'humidity': 33.47}
+[2025-05-18 19:21:13] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:13] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:18] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:18] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:23] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:23] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:28] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:21:28] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:21:29] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:21:29.421175Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:21:29] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:29] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:34] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:34] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:39] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:39] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:44] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:21:44] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:21:45] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:21:45.445182Z', 'temperature': 1000.0, 'humidity': 0.0}
+[2025-05-18 19:21:45] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:45] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:50] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:50] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:21:55] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:21:55] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:00] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:22:00] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:22:01] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:22:01.459604Z', 'temperature': 19.87, 'humidity': 50.89}
+[2025-05-18 19:22:01] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:01] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:06] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:06] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:11] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:11] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:16] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:22:16] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:22:17] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:22:17.483181Z', 'temperature': 25.84, 'humidity': 52.74}
+[2025-05-18 19:22:17] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:17] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:22] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:22] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:27] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:27] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:32] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:22:32] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:22:33] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:22:33.499923Z', 'temperature': 28.54, 'humidity': 63.2}
+[2025-05-18 19:22:33] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:33] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:38] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:38] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:43] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:43] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:48] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:22:48] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:22:49] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:22:49.522157Z', 'temperature': 18.97, 'humidity': 49.79}
+[2025-05-18 19:22:49] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:49] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:54] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:54] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:22:59] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:22:59] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:04] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:23:04] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:23:05] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:23:05.537420Z', 'temperature': 15.74, 'humidity': 59.81}
+[2025-05-18 19:23:05] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:05] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:10] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:10] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:15] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:15] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:20] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:23:20] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:23:21] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:23:21.556435Z', 'temperature': 17.29, 'humidity': 49.25}
+[2025-05-18 19:23:21] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:21] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:26] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:26] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:31] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:31] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:36] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:23:36] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:23:37] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:23:37.566096Z', 'temperature': 23.9, 'humidity': 56.9}
+[2025-05-18 19:23:37] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:37] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:42] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:42] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:47] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:47] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:52] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:23:52] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:23:53] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:23:53.583538Z', 'temperature': 29.54, 'humidity': 35.03}
+[2025-05-18 19:23:53] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:53] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:23:58] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:23:58] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:24:03] [SensorNode] [WARNING] Send attempt 3/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:24:03] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:24:08] [SensorNode] [ERROR] All retry attempts failed.
+[2025-05-18 19:24:08] [SensorNode] [ERROR] Payload failed after retries
+[2025-05-18 19:24:09] [SensorNode] [DEBUG] Prepared payload: {'sensor_id': 'S2', 'timestamp': '2025-05-18T16:24:09.602169Z', 'temperature': 29.41, 'humidity': 30.55}
+[2025-05-18 19:24:09] [SensorNode] [WARNING] Send attempt 1/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:24:09] [SensorNode] [INFO] Waiting 5 seconds before retry
+[2025-05-18 19:24:14] [SensorNode] [WARNING] Send attempt 2/3 failed: [Errno 61] Connection refused
+[2025-05-18 19:24:14] [SensorNode] [INFO] Waiting 5 seconds before retry

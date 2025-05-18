@@ -46,13 +46,10 @@ Edit the YAML files in the `config/` directory as needed:
   ```yaml
   drone_host: "127.0.0.1"
   drone_port: 9000
-
   server_host: "127.0.0.1"
   server_port: 10000
-
   window_size: 5
   sigma_threshold: 2.0
-
   start_level: 100
   drain_rate: 1
   check_interval: 1.0
@@ -79,6 +76,10 @@ Edit the YAML files in the `config/` directory as needed:
 ## 3. Running the System
 
 You will run three core services (plus optionally multiple sensor nodes) in separate terminals:
+# Optionally, use modular CLI command-based execution:
+  python main.py --drone-host 127.0.0.1 --drone-port 9001 --central-host 127.0.0.1 --central-port 10001 --log-level INFO --config config/server_config.yaml
+  python -m src.sensor_node.sensor_node --config config/sensor_S1.yaml --drone-host 127.0.0.1 --drone-port 9001 --sensor-id S1 --interval 1
+  python -m src.sensor_node.sensor_node --config config/sensor_S2.yaml --drone-host 127.0.0.1 --drone-port 9001 --sensor-id S2 --interval 1
 
 ### A. Central Server & Dashboard
 
@@ -143,12 +144,6 @@ pytest -q
   sudo tcpdump -i lo0 -w capture.pcap tcp port 9000 or tcp port 10000
   ```
   Open `capture.pcap` in Wireshark for inspection.
-
----
-
-## Initial Test Case Results
-
-See `docs/initial_test_results.md` for end-to-end test details and optional Wireshark screenshots.
 
 ---
 
