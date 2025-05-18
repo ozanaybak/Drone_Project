@@ -69,21 +69,21 @@ def update_sensor_data(sensor_data):
             print("✅ ANOMALY EKLENİYOR TABLOYA:", sensor_id, temp, timestamp)
             anomaly_list_table.insert("", "end", values=(sensor_id, temp, timestamp))
         except Exception as e:
-            print("❌ Failed to insert into anomaly table:", e)
+            print("Failed to insert into anomaly table:", e)
 
     # Update temperature and humidity history per sensor using average and humidity for graphs
     sensor_id = sensor_data["sensor_id"]
     # Use average if available, otherwise fall back to temperature
     temp_val = sensor_data.get("average", sensor_data["temperature"])
     hum_val = sensor_data.get("humidity")
-    print("📈 TEMP_VAL:", temp_val, "HUM_VAL:", hum_val)
+    print("TEMP_VAL:", temp_val, "HUM_VAL:", hum_val)
 
     # Safeguard: Only append if values exist and are not None
     if temp_val is not None and hum_val is not None:
         try:
             temp_val = float(temp_val)
             hum_val = float(hum_val)
-            print("✅ Appending:", sensor_id, temp_val, hum_val)
+            print("Appending:", sensor_id, temp_val, hum_val)
 
             if sensor_id not in temperature_history:
                 temperature_history[sensor_id] = []
@@ -93,10 +93,10 @@ def update_sensor_data(sensor_data):
             temperature_history[sensor_id].append(temp_val)
             humidity_history[sensor_id].append(hum_val)
 
-            print("🧊 TEMP HISTORY:", temperature_history[sensor_id])
-            print("💧 HUMIDITY HISTORY:", humidity_history[sensor_id])
+            print("TEMP HISTORY:", temperature_history[sensor_id])
+            print("HUMIDITY HISTORY:", humidity_history[sensor_id])
         except Exception as e:
-            print("❌ Cannot convert values to float:", temp_val, hum_val, e)
+            print("Cannot convert values to float:", temp_val, hum_val, e)
 
         # Limit history to last 30 entries
         if len(temperature_history[sensor_id]) > 30:
@@ -134,7 +134,7 @@ def update_sensor_data(sensor_data):
             x_vals = list(range(-len(hums)+1, 1))
             marker = markers[idx % len(markers)]
             ax_humidity.plot(x_vals, hums, label=sid, marker=marker)
-            print(f"📊 PLOTTING HUMIDITY for {sid}: {hums}")
+            print(f"PLOTTING HUMIDITY for {sid}: {hums}")
 
     ax_humidity.legend(loc='upper right')
     avg_humidity_canvas.draw()
